@@ -8,7 +8,13 @@ const router = jsonServer.router("db.json");
 
 app.db = router.db;
 
-const rules = auth.rewriter({});
+const rules = auth.rewriter({
+  users: 640,
+  multimedias: 640,
+  stores: 640,
+  posts: 660,
+  messages: 640,
+});
 
 app.use(cors());
 app.use(rules);
