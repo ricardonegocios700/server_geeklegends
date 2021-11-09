@@ -1,1 +1,829 @@
-{}
+{
+  "users": [
+    {
+      "email": "beatriz@email.com",
+      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
+      "name": "Beatriz",
+      "id": 1
+    },
+    {
+      "email": "sthefany@email.com",
+      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
+      "name": "Sthéfany",
+      "id": 2
+    },
+    {
+      "email": "roberto@email.com",
+      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
+      "name": "Roberto",
+      "id": 3
+    },
+    {
+      "email": "ricardo@email.com",
+      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
+      "name": "ricardo",
+      "id": 4
+    },
+    {
+      "email": "teste@teste.com",
+      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
+      "name": "Teste",
+      "id": 5
+    }
+  ],
+  "multimedias": [
+    {
+      "title": "ONE PEACE",
+      "type": "Animes",
+      "image": "https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2021/04/legiao_EMCh9zLXi3P_.jpg.jpeg",
+      "description": "Luffy tem o desejo de se tornar o próximo Rei dos Piratas e para isso ele deve encontrar um dos tesouros mais procurados do mundo, o One Peace. A tripulação se aventura em explorar a Grand Line para conquistar seus objetivos. O anime foi desenvolvida no mangá escrito e também desenhado por Eiichiro Oda é uma das séries de maior quantidade de episódios já criados além de possuir o título de mangá mais vendido de todos os tempos ultrapassando Naruto e Dragon Ball. O anime seu primeiro mangá produzido em 1997 e o desenho é apresentado nas telas desde 1999.",
+      "id": 1
+    },
+    {
+      "title": "NARUTO",
+      "type": "Animes",
+      "image": "https://blognerdegeek.com/wp-content/uploads/AAAABYQp33Z3D9uGJK0IZsYfvENQpSz4zoSrjb8v5CCl4UTiFDe7Z_yovhieDFhJtGm2Rh4LoleJfHwHdyRDMtezwqojkDXH.jpg",
+      "description": "Os animes contam histórias incríveis de superação e vontade. São sensações incríveis despertadas em crianças, adolescentes e até nos mais velhos que gostam de animes. Para o anime Naruto, não é diferente. Seu objetivo é se tornar Hokage, ninja líder. O anime é baseado em uma série de mangá que Masashi Kishimoto escreveu e ilustrou. A primeira aparição nas telas de TV foi no Japão entre os anos de 2002 e 2007 e continuou por alguns anos depois. Naruto marcou a vida de muitos que hoje estão na faixa dos 20 anos, mas isso não é regra. É um anime para qualquer faixa etária. Se divirta!",
+      "id": 2
+    },
+    {
+      "title": "FULLMETAL ALCHEMIST: BROTHERHOOD",
+      "type": "Animes",
+      "image": "https://idris.com.br/dev/wp-content/themes/Idris/timthumb.php?src=https://idris.com.br/dev/wp-content/uploads/2018/03/fantastic-full-metal-alchemist-poster-and-awesome-ideas-of-fullmetal-alchemist-brotherhood-768x1095.jpg&w=821&h=400&zc=1",
+      "description": "Fullmetal Alchemist, virou série na Monthly Shōnen Gangan uma revista mensal japonesa entre 2001 e 2010. É um mangá produzido por Hiromu Arakawa que escreveu e ilustrou. A história se passa em um mundo pós revolução industrial na Europa onde a Alquimia é uma ciência muito avançada para época é onde acontece e é explorado a história desse anime. Sim, Edward Elric e Alphonse Elric estão atrás da pedra filosofal para reverter um problema. a restauração dos seus corpos é o objetivo depois de uma tentativa mal sucedida de trazer a mãe de volta a vida. A segunda série, Brotherhood, que muitos gostam, possui mais episódios. O mangá serviu de inspiração para as séries que se baseou em quase todos os episódios do mangá. Entre meados de 2009 e final de 2010 a Aniplex lançou série em Blu-ray e DVD.",
+      "id": 3
+    },
+    {
+      "title": "DEATH NOTE",
+      "type": "Animes",
+      "image": "https://conteudo.imguol.com.br/c/entretenimento/0a/2021/10/19/death-note-1634673050596_v2_900x506.jpg.webp",
+      "description": "Uma ótima série de mangá que foi escrita por Tsugumi Ohba e contou com a participação de Takeshi Obata para ilustrar essa impactante história. Muitos gostaram e acompanharam tanto o anime e o mangá que Death Note teve uma adaptação americana pela Netflix em 2017. Light Yagami, é o personagem central, ele é um estudante que descobre o Death Note. A partir daí, ele escreve o nome de más pessoas nesse livro e quanto mentaliza o rosto da pessoa que foi citada no livro, essa pessoa morre. A série ainda conta com L., um detetive particular e Ryuk (o DEUS DA MORTE). A versão de anime produzida por Tetsurō Araki, conta com 37 episódios e foi exibida inicialmente entre 2007 e 2007.",
+      "id": 4
+    },
+    {
+      "title": "DRAGON BALL Z",
+      "type": "Animes",
+      "image": "https://blognerdegeek.com/wp-content/uploads/dragonballz1.jpg",
+      "description": "A série de mangá produzida por Akira Toriyama deu origem a um dos animes mais vistos nos anos 90 e começo dos anos 2000. Meu foco é para a saga Z que foi transmitida pela TV por muitos meses tendo confrontos incríveis e ao mesmo tempo curiosos entre Goku, seus filhos e companheiros e Majin Boo além de Freeza e Cell. Dragon Ball Z possui uma das músicas em português mais lembradas de todos os tempos. VOU MOSTRAR ME VALOR... [...] É SEMPRE VENCER – alguns amigos não gostaram dessa adaptação da letra em português. O anime das esferas do dragão e com enredos emocionantes ficou na memória de todos.",
+      "id": 5
+    },
+    {
+      "title": "CAVALEIROS DO ZODÍACO",
+      "type": "Animes",
+      "image": "https://miro.medium.com/max/2868/1*rViKNVn1JlZ6BJeSTLI0Hw.jpeg",
+      "description": "Os Cavaleiros do Zodíaco ou Saint Seiya, série mangá produzida por Masami Kurumada é lembrada por muitos até hoje e marcou a infância de quem acompanhou na TV nos anos 90. A saga mais lembrada no Brasil é onde Seiya, Shun, Shiryu e Hyoga, que usam as armaduras de bronze, lutam nas 12 casas do zodíaco contra cavaleiros possuidores das armaduras de ouro a fim de salvar Saori, que havia sido gravemente ferida. Essa saga conta ainda com Ikki, Cavaleiro de Fênix. Muitas pessoas que hoje tem acima de 25 ou 30 anos de idade lembram muito bem dos Cavaleiros do Zodíaco.",
+      "id": 6
+    },
+    {
+      "title": "Star Wars: Uma Nova Esperança",
+      "type": "Filmes",
+      "image": "https://f001.backblazeb2.com/file/papocine/2013/02/20171212-star-wars-4-papo-de-cinema-cartaz.jpg",
+      "description": "Uma Nova Esperança é tão emblemático que a sua data de estreia serviu de base para criar o Dia do Orgulho Nerd. Só isso já mostra o quanto o longa é significativo. Adicione à equação a paixão que milhões de pessoas têm ao universo criado por George Lucas e você vai concordar que o começo de tudo é algo mesmo a ser celebrado.",
+      "id": 7
+    },
+    {
+      "title": "O Senhor dos Anéis: A Sociedade do Anel",
+      "type": "Filmes",
+      "image": "https://upload.wikimedia.org/wikipedia/pt/3/38/Lord_of_the_Rings_Fellowship_of_the_Ring.jpg",
+      "description": "A trilogia inteira é fantástica, encantando tanto pelo visual estonteante quanto pela história que jamais envelhece. Só que, dos três filmes, não há como esquecer do impacto de vermos a Terra-Média pela primeira vez em A Sociedade do Anel. Passear pelo Condado, conhecer as demais raças e ter o primeiro vislumbre do mal são experiências que provam porque Frodo, Gandalf e companhia merecem estar entre os melhores filmes nerds de todos os tempos.",
+      "id": 8
+    },
+    {
+      "title": "Star Trek: A Ira de Khan",
+      "type": "Filmes",
+      "image": "https://upload.wikimedia.org/wikipedia/pt/3/38/Star_Trek_II_Wrath_of_Khan.png",
+      "description": "Nos cinemas, a franquia brilhou mesmo foi com A Ira de Khan, o segundo filme protagonizado pelo Capitão Kirk e Spock e que trouxe o mais icônico dos vilões da série. O humano geneticamente modificado entrou na história em busca de vingança contra os protagonistas e serviu para mostrar que nem tudo era limpo e bonito no futuro utópico da série.",
+      "id": 9
+    },
+    {
+      "title": "Matrix",
+      "type": "Filmes",
+      "image": "https://img.ibxk.com.br/2021/07/03/03021831662002.jpg?ims=704x",
+      "description": "Se o assunto é tecnologia e revolução estética, Matrix é o grande nome a ser lembrado. Ele não é só um dos melhores filmes nerds, mas um dos maiores marcos da história do cinema em geral, já que a história do hacker que descobre viver em uma simulação criada pelas máquinas é algo que influenciou não só a Sétima Arte, mas a própria sociedade pós-anos 2000. O filme estabeleceu novos paradigmas visuais ao abusar dos efeitos especiais — por um bom tempo, era obrigatório o filme ter cenas de bullet time, por exemplo —, fez o sobretudo preto voltar à moda e foi responsável por colocar muita gente no mundo da programação. Só que, mais do que tudo isso, Matrix trouxe uma série de questionamentos filosóficos sobre a realidade e liberdade que o tornam um filme interessante de se assistir até hoje.",
+      "id": 10
+    },
+    {
+      "title": "Akira",
+      "type": "Filmes",
+      "image": "https://m.media-amazon.com/images/I/81X-LaCMnML._SS500_.jpg",
+      "description": "Akira é um dos marcos da cultura pop por ser considerado revolucionário. Ele era superior a tudo o que era feito no mundo em termos técnicos na época e que trazia uma versão ainda mais pesada desse futuro cyberpunk em uma Tóquio devastada e tomada por gangues.",
+      "id": 11
+    },
+    {
+      "title": "De Volta para o Futuro",
+      "type": "Filmes",
+      "image": "https://www.correiodopovo.com.br/image/policy:1.458756:1596255859/.jpeg?f=2x1&$p$f=2be3c1c&w=1200&$w=9c05b01",
+      "description": "Todo nerd que se preze gosta de histórias de viagem no tempo — isso é algo que nos encanta desde H.G. Wells, ainda no século XIX. E, por mais que vários filmes abordem a temática de diferentes formas, nenhum é tão memorável e querido quanto De Volta para o Futuro. Com um clima aventuresco e despretensioso, as viagens de Marty McFly e Dr. Brown são uma delícia de acompanhar — e fizeram com que a máquina do tempo em forma de DeLorean se tornasse um dos grandes ícones do cinema. Isso sem falar da trilha sonora, em que bastam os primeiros acordes para você voltar a ser criança.",
+      "id": 12
+    },
+    {
+      "title": "Watchmen",
+      "type": "Gibis",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51a4RsiID0L._SY344_BO1,204,203,200_QL70_ML2_.jpg",
+      "description": "Continuando com a genialidade do roteirista Allan Moore, vamos falar sobre uma das principais HQs que todo Geek deve ter: Watchmen. Pontapé inicial para um universo mais adulto, Watchmen é um marco histórico quando estamos falando de quadrinhos. Junto com as histórias de Frank Miller, da mesma época (meados dos anos 80), Alan Moore subverteu tudo o que vinha sendo feito nas narrativas de super-heróis, desmistificando a visão de que o formato era exclusivamente para o público infanto-juvenil. Em Watchmen, os super-heróis são gente como a gente: eles passam por diversos dilemas éticos e psicológicos. Aliás, eles não podem nem ser considerados super-heróis. Uma das questões que permeia toda a história é: Who watches the watchmen? (quem vigia os vigilantes?), que acaba de vez com a dicotomia entre o bem e o mal.",
+      "id": 13
+    },
+    {
+      "title": "Demolidor - Amor e Guerra",
+      "type": "Gibis",
+      "image": "http://filfelix.com.br/wp-content/uploads/2017/01/Demolidor-Amor-e-Guerra-Destaque-2.jpg",
+      "description": "Demolidor: Amor e Guerra foi a despedida entre Frank Miller e Matt Murdock. Uma despedida em grande estilo! Na HQ, o já queridinho herói de Hell’s Kitchen enfrenta seu maior inimigo: Wilson Fisk.",
+      "id": 14
+    },
+    {
+      "title": "The Walking Dead",
+      "type": "Gibis",
+      "image": "http://www.guiadosquadrinhos.com/edicao/ShowImage.aspx?id=107934&path=th163100019_107934.jpg",
+      "description": "Saindo um pouco do universo dos super-heróis, vamos falar de outra coisa que o mundo nerd se orgulha: zumbis! The Walking Dead nos leva para um mundo pós apocalíptico, onde os mortos se levantam e se alimentam de carne humana. Tudo aquilo que a gente conhece, principalmente a sociedade de consumo, não existe mais: a meta agora é sobreviver. E é nesse contexto que vamos aprendendo que os vivos podem nos meter mais medo do que os mortos! A série acabou ficando mais conhecida com a adaptação para a TV, de mesmo nome. The Walking Dead virou um fenômeno, fazendo com que muitas pessoas tivessem contato com os quadrinhos. As mídias são diferentes, claro, mas o roteiro de Robert Kirkman e os desenhos de Tony Moore resultam em cenas tão viscerais quanto o audiovisual pode nos dar!",
+      "id": 15
+    },
+    {
+      "title": "Absolute Sandman",
+      "type": "Gibis",
+      "image": "https://images-na.ssl-images-amazon.com/images/I/51gQpeojq8L._SX328_BO1,204,203,200_.jpg",
+      "description": "Quando Neil Gaiman, um dos maiores mestres da fantasia contemporânea, resolve escrever uma história em quadrinhos, o resultado só pode ser espetacular. Assim é Sandman, uma HQ que rompeu com todas as barreiras do gênero e se transformou em uma das séries mais ambiciosas e premiadas da história dos quadrinhos. Mas atenção: é um quadrinho para adultos! Neil Gaiman nos leva para um mundo de sonhos, controlado por Morfeus, o protagonista de série. Os sonhos, em formato de HQ, foram republicados no Brasil pela Panini, em uma edição totalmente recolorida e cheia de extras: esboço dos personagens, arte desenhada a lápis, roteiro de algumas das histórias e a proposta original da série. É um prato cheio para quem, além da história, quer ver ilustrações magníficas, consideradas obras de arte.",
+      "id": 16
+    },
+    {
+      "title": "Scott Pilgrim - Contra o Mundo",
+      "type": "Gibis",
+      "image": "https://cinemaemcena.com.br/uploads/criticas_old/filmes-4190-cartazes-scottpilgrim_15.jpg",
+      "description": "Depois de Sandman, é hora de suavizar as coisas com Scott Pilgrim: uma HQ bem menos ambiciosa, mas ainda assim, muito divertida. O personagem principal é o que dá nome à história, e acompanhamos a sua jornada para derrotar os sete ex-namorados da menina por quem ele se apaixonou. Além disso, ele ainda tem que lidar com seus próprios relacionamentos do passado, com sua banda de rock, a Sex Bob-Omb e a falta de mobília em sua casa. Nada mal para um garoto de 20 e poucos anos. A série, escrita pelo canadense Bryan Lee O’Malley conquistou o público e ganhou até uma adaptação cinematográfica em 2010, ajudando a divulgar ainda mais os quadrinhos. Em uma mistura de videogame, música, mangás, pontos turísticos canadenses e cinema, vamos descobrindo a vida adulta de Pilgrim e nos apaixonando cada vez mais pelos personagens que o rodeia.",
+      "id": 17
+    },
+    {
+      "title": "A Saga de Thanos",
+      "type": "Gibis",
+      "image": "https://poltronanerd.com.br/wp-content/uploads/2019/04/poltrona-thanos.jpg",
+      "description": "Mostra como o personagem já era uma força perigosa a ser considerada, antes mesmo de tentar exterminar metade do Universo. Na nova história em quadrinhos, os fãs do universo Marvel poderão acompanhar grandes fatos, como a criação de Warlock, sua batalha para libertar a Contraterra, a busca de Thanos pelo Cubo Cósmico e suas maquinações contra o Capitão Marvel. Além disso, a HQ conta com a presença de grandes outros super-heróis como Thor, Homem de Ferro, Quarteto Fantástico, Hulk e Drax.",
+      "id": 18
+    },
+    {
+      "title": "Doctor Who",
+      "type": "Séries",
+      "image": "https://www.guiadasemana.com.br/contentFiles/system/pictures/2014/5/113847/cropped/doctorwho50.png",
+      "description": "A série de ficção científica mais longa da TV, com 26 temporadas na sua primeira fase (1963 - 1989) e mais sete desde 2005. A trama acompanha as aventuras do Doutor, um homem que viaja no tempo com a missão de resolver problemas que encontra pela história. Até hoje, já existiram 12 doutores.",
+      "id": 19
+    },
+    {
+      "title": "Star Trek",
+      "type": "Séries",
+      "image": "https://www.guiadasemana.com.br/contentFiles/system/pictures/2014/5/113848/cropped/star-trek-csg-014.jpg",
+      "description": "Essa série é uma verdadeira unanimidade entre os nerds. Não interessa nem se você é fã de Star Wars, não há quem nunca tenha ouvido falar da tripulação da Enterprise comandada pelo Capitão James T. Kirk com ajuda dos Comandantes Spock e McCoy. A série original foi 1966 a 1969, depois teve novas temporadas que aconteceram até 2005.",
+      "id": 20
+    },
+    {
+      "title": "The Big Bang Theory",
+      "type": "Séries",
+      "image": "",
+      "description": "Vários nerds não colocariam The Big Bang Theory nesta lista, mas que a série é um sucesso e tem personagens que viraram ícone nerds, isso tem. A trama acompanha os amigos cientistas Leonard, Sheldon, Howard e Raj, que fazem muitas referências a elementos da cultura pop e nerd, com muito video game, quadrinhos e cosplays. A série é transmitida no Brasil pela Warner.",
+      "id": 21
+    },
+    {
+      "title": "Chuck",
+      "type": "Séries",
+      "image": "https://www.guiadasemana.com.br/contentFiles/system/pictures/2014/5/113852/cropped/chuck-wallpaper.jpg",
+      "description": "Outra série nerd da atualidade, Chuck foi ao ar de 2007 a 2012. Na atração, Zachary Levi é Chuck Bartowski, um um verdadeiro nerd, fã de Star Wars e Indiana Jones, viciado em video games e supervisor do balcão de aparelhos eletrônicos de uma loja. Quando um neurocomputador com todos os segredos governamentais dos Estados Unidos é instalado no seu cérebro, ele acaba se tornando um espião do governo americano.",
+      "id": 22
+    },
+    {
+      "title": "Numb3rs",
+      "type": "Séries",
+      "image": "https://www.guiadasemana.com.br/contentFiles/system/pictures/2014/5/113854/cropped/numbers.jpg",
+      "description": "O que é mais nerd do que utilizar equações matemáticas na solução de casos especiais? Criada por Nick Falacci e Cheryl Heuton, a atração acompanhava as investigações do escritório de Los Angeles do FBI, com o Agente Especial Don Eppes (Rob Morrow) e seu irmão Charles (David Krumholtz), um brilhante matemático. A série foi ao ar por seis temporadas até ser cancelada em 2010.",
+      "id": 23
+    },
+    {
+      "title": "Silicon Valley",
+      "type": "Séries",
+      "image": "https://www.guiadasemana.com.br/contentFiles/system/pictures/2014/5/113845/cropped/50506-69348-silicon-valley-serie.jpg",
+      "description": "O lançamento da nova comédia foi em abril e a série já foi renovada pra sua segunda temporada. Ambientada no Vale do Silício, terra das inovações tecnológicas, a série de Mike Judge acompanha um grupo de desenvolvedores que cria um novo programa. Eles querem impressionar um bilionário excêntrico que fez fortuna no ramo da tecnologia. O programa é exibido nas segundas.",
+      "id": 24
+    },
+    {
+      "title": "The Search for Planet X ",
+      "type": "Games",
+      "image": "https://storage.googleapis.com/ludopedia-imagens-jogo/5f813_156217.jpg",
+      "description": "Nos limites do nosso sistema solar, um planeta escuro pode estar à espreita. Em 2015, os astrônomos estimaram que um grande planeta distante poderia explicar as órbitas únicas dos planetas anões e outros objetos. Desde então, os astrônomos estão explorando o céu, na esperança de encontrar este planeta. Em The Search for Planet X, os jogadores assumem o papel de astrônomos que usam observações e deduções lógicas para procurar esse planeta hipotético. A cada jogo, o aplicativo complementar seleciona aleatoriamente um arranjo de objetos e um local para o Planeta X, seguindo regras lógicas predefinidas.",
+      "id": 25
+    },
+    {
+      "title": "Whistle Mountain",
+      "type": "Games",
+      "image": "https://storage.googleapis.com/ludopedia-imagens-jogo/1cbac_157903.jpg",
+      "description": "O designer de Whistle Stop, Scott Caputo, se juntou a Luke Laurie (The Manhattan Project: Energy Empire) para criar um novo título de estratégia de alocação de trabalhadores. Whistle Mountain dá um aceno de Whistle Stop, mas neste jogo autônomo, você deixa os trilhos do trem para trás e se dirige para o céu com dirigíveis, encouraçados e balões de ar quente! Em Whistle Mountain, tire os lucros massivos de sua empresa de toda essa ferrovia e invista em novas tecnologias, nas profundezas das Montanhas Rochosas, onde há abundância de recursos. Seus trabalhadores constroem matrizes malucas de andaimes e máquinas, atualizando suas habilidades e coletando recursos. Conforme você constrói com a ajuda de sua frota de dirigíveis, a neve derretida da montanha faz com que a água abaixo suba cada vez mais, colocando os trabalhadores em perigo e aumentando a tensão no tabuleiro que muda dinamicamente. Como os recursos que você coleta são determinados pelo que os jogadores constroem, cada jogo evolui de maneira diferente, resultando em uma rejogabilidade infinita. Você deve escolher entre adquirir novas habilidades e melhorias para seus dirigíveis e trabalhadores ou construir todos os tipos de engenhocas o mais rápido possível para alcançar a vitória na Montanha Whistle.",
+      "id": 26
+    },
+    {
+      "title": "MicroMacro: Cidade de crime",
+      "type": "Games",
+      "image": "https://storage.googleapis.com/ludopedia-imagens-jogo/68a0e_161217.jpg",
+      "description": "Crimes acontecem na cidade! Com a visualização de detalhes, você buscará fatos: Procure as cenas que fornecem os fatos corretos para solucionar os casos de crime. O mapa da cidade gigante (75 x 110 cm) é o lar de uma infinidade de informações ocultas. Diferentes níveis de dificuldade conduzem os jogadores passo a passo no jogo. Os jogadores devem trabalhar juntos para descobrir o que aconteceu. Os cartões de caso contêm perguntas para as quais o grupo deve encontrar as respostas certas. Cada caso criminal é único e esconde informações incríveis!",
+      "id": 27
+    },
+    {
+      "title": "As Ruínas Perdidas de Arnak",
+      "type": "Games",
+      "image": "https://storage.googleapis.com/ludopedia-imagens-jogo/b1785_159434.jpg",
+      "description": "Em uma ilha desabitada em mares desconhecidos, os exploradores encontraram vestígios de uma grande civilização. Agora você vai liderar uma expedição para explorar a ilha, encontrar artefatos perdidos e enfrentar guardiões temíveis, tudo em uma missão para aprender os segredos da ilha. Lost Ruins of Arnak combina construção de deck e alocação de trabalhadores em um jogo de exploração, gerenciamento de recursos e descoberta. Além dos efeitos tradicionais de construção de deck, as cartas também podem ser usadas para posicionar trabalhadores, e novas ações de trabalhadores tornam-se disponíveis conforme os jogadores exploram a ilha. Algumas dessas ações requerem recursos em vez de trabalhadores, portanto, construir uma base sólida de recursos será essencial. Você está limitado a apenas uma ação por turno, então faça sua escolha com cuidado ... qual ação o beneficiará mais agora? E o que você pode fazer mais tarde ... presumindo que outra pessoa não tome a ação primeiro !? Os baralhos são pequenos e a aleatoriedade no jogo é fortemente mitigada pela riqueza de decisões táticas oferecidas no tabuleiro. Com uma variedade de ações do trabalhador, artefatos e cartas de equipamento, a configuração de cada jogo será única, incentivando os jogadores a explorar novas estratégias para enfrentar o desafio. Descubra as ruínas perdidas de Arnak!",
+      "id": 28
+    },
+    {
+      "title": "Forgotten Waters",
+      "type": "Games",
+      "image": "https://storage.googleapis.com/ludopedia-imagens-jogo/fe2de_148752.jpg",
+      "description": "Forgotten Waters é um jogo Crossroads ambientado em um mundo de fantásticas aventuras de piratas. Nele, os jogadores assumem o papel de piratas navegando juntos em um navio, tentando promover suas próprias histórias pessoais e um objetivo comum. O mundo de Forgotten Waters é bobo e mágico, com histórias projetadas para incentivar os jogadores a explorar e rir de prazer enquanto eles interagem com o mundo ao seu redor. É um jogo em que todas as escolhas podem deixar um impacto duradouro na história, e os jogadores querem virar todas as pedras apenas para ver o que encontram. Forgotten Waters apresenta cinco cenários e um enorme livro de localização que oferece aos jogadores inúmeras opções de escolha onde quer que estejam.",
+      "id": 29
+    },
+    {
+      "title": "Stay Cool",
+      "type": "Games",
+      "image": "https://storage.googleapis.com/ludopedia-imagens-jogo/77985_124858.jpg",
+      "description": "Stay Cool é fácil. Pedimos-lhe para não fazer nada complicado - mas você deve fazer tudo ao mesmo tempo... Quando você é o jogador ativo no primeiro turno, você deve responder verbalmente as perguntas feitas pelo seu vizinho do lado esquerdo enquanto você ESCREVE as respostas às perguntas feitas pelo seu vizinho do lado direito, usando sete dados de letras para ESCREVE respostas de três ou quatro letras. Enquanto você está fazendo isso, outro jogador vira uma ampulheta de 30 segundos quatro vezes, dando a você dois minutos para responder ao maior número de perguntas possível. No final desse período, multiplique o número de respostas que deu para as perguntas da esquerda e da direita para determinar sua pontuação. Na segunda rodada, você faz a mesma coisa novamente com novas perguntas, mas você deve dizer ao jogador que está observando a ampulheta para virá-la antes que ela fique sem areia, com um máximo de dois minutos de jogo. Se você não conseguir dizer ao jogador para virar o cronômetro antes que ele fique sem areia, seu turno terminará imediatamente. Embora seu turno termine, você ganha pontos como descrito acima. Na terceira e última rodada, você deve fazer tudo o que foi descrito na última rodada, exceto que agora o cronômetro de areia está escondido dos seus olhos!",
+      "id": 30
+    }
+  ],
+  "stores": [
+    {
+      "name": "Toy Show",
+      "url": "https://www.toyshow.com.br/",
+      "image": "https://service.smarthint.co/ClientImages/abb35ee0-fd06-4eec-af67-024063ec78ca.png",
+      "segment": "shopping",
+      "id": 0
+    },
+    {
+      "name": "Nerd Universe",
+      "url": "https://www.nerduniverse.com.br/",
+      "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/078/806/themes/common/logo-1786935022-1581098938-c66991d35d9583404e19459e393e5df81581098939-320-0.png?0",
+      "segment": "shopping",
+      "id": 1
+    },
+
+    {
+      "name": "Limited edition",
+      "url": "https://www.limitededition.com.br/",
+      "image": "https://www.limitededition.com.br/arquivos/logo.png?v=637685282890870000",
+      "segment": "shopping",
+      "id": 2
+    },
+
+    {
+      "name": "Geek 10",
+      "url": "https://www.geek10.com.br/",
+      "image": "https://images.tcdn.com.br/files/723087/themes/67/img/settings/logo-2.png",
+      "segment": "shopping",
+      "id": 3
+    },
+
+    {
+      "name": "Geek Universe",
+      "url": "https://www.geekuniverse.com.br/",
+      "image": "http://www.geekuniverse.com.br/wp-content/uploads/2020/07/logow.png",
+      "segment": "shopping",
+      "id": 4
+    },
+
+    {
+      "name": "Studio Geek",
+      "url": "https://www.studiogeek.com.br/",
+      "image": "https://cdn.dooca.store/292/files/logo-studio-geek-600x600.png?v=1586487901",
+      "segment": "shopping",
+      "id": 5
+    },
+
+    {
+      "name": "Geek Hoard",
+      "url": "https://www.geekhoard.com.br/",
+      "image": "https://images.tcdn.com.br/img/img_prod/884991/1602032309_logo-loja-geek-hoard-site-vertical.png",
+      "segment": "shopping",
+      "id": 6
+    },
+
+    {
+      "name": "Loja Ei Nerd",
+      "url": "https://www.lojaeinerd.com/",
+      "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/067/894/themes/common/logo-913841234-1571722062-6de307dcd6e7603efff0a5041b9086151571722063-480-0.png?0",
+      "segment": "shopping",
+      "id": 7
+    },
+
+    {
+      "name": "Mais 1 Nerd",
+      "url": "https://mais1nerd.com.br/",
+      "image": "https://mais1nerd.com.br/wp-content/uploads/2020/01/logo-slogan.jpg",
+      "segment": "shopping",
+      "id": 8
+    },
+
+    {
+      "name": "Happy Nerd",
+      "url": "https://www.happynerd.com.br/",
+      "image": "https://images.tcdn.com.br/files/1002138/themes/21/img/settings/happynerd_logo.png",
+      "segment": "shopping",
+      "id": 9
+    },
+
+    {
+      "name": "Emporium Nerd",
+      "url": "https://www.emporiumnerd.com.br/",
+      "image": "https://cdn.awsli.com.br/400x300/605/605955/logo/84152413cc.png",
+      "segment": "shopping",
+      "id": 10
+    },
+
+    {
+      "name": "Loja Nerdz",
+      "url": "https://lojanerdz.com.br/",
+      "image": "https://lojanerdz.com.br/app/themes/nerdz/dist/images/lg-nerdz_a41a8f85.svg",
+      "segment": "shopping",
+      "id": 11
+    },
+
+    {
+      "name": "Quarto Geek",
+      "url": "https://www.quartogeek.com.br/",
+      "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/752/612/themes/common/logo-1818044076-1624468672-a40891bf662cb8e5e948dd73c3e181731624468672-320-0.png?0",
+      "segment": "shopping",
+      "id": 12
+    },
+
+    {
+      "name": "Colorindo Nuvens",
+      "url": "https://colorindonuvens.com/",
+      "image": "https://colorindonuvens.com/wp-content/uploads/2021/05/Colorindo-Nuvens-Logotipo-20021.png",
+      "segment": "shopping",
+      "id": 13
+    },
+
+    {
+      "name": "Bichos Geeks",
+      "url": "https://www.bichosgeeks.com/",
+      "image": "https://www.bichosgeeks.com/wp-content/uploads/2016/01/Bichos-Geeks-Header.png",
+      "segment": "shopping",
+      "id": 14
+    },
+
+    {
+      "name": "Loja Keep Geek",
+      "url": "https://www.lojakeepgeek.com.br/",
+      "image": "https://www.lojakeepgeek.com.br/wp-content/themes/keepgeek/images/logo.png",
+      "segment": "shopping",
+      "id": 15
+    }
+  ],
+  "posts": [],
+  "messages": [
+    {
+      "id": "0",
+      "quote": "Code is more than some bytes in a file",
+      "translate": "O código tem mais do que alguns bytes em um arquivo",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "1",
+      "quote": "There is no place like 127.0.0.1",
+      "translate": "Não há lugar como 127.0.0.1",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "2",
+      "quote": "Girls are like Internet Domain names; the ones I like are already taken.",
+      "translate": "As garotas são como nomes de domínio da Internet; as que eu gosto já estão tomadas.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "3",
+      "quote": "Programming today is a race between software engineers striving to build bigger and better idiot-proof programs, and the Universe trying to produce bigger and better idiots. So far, the Universe is winning.",
+      "translate": "A programação hoje é uma corrida entre engenheiros de software se esforçando para construir programas maiores e melhores à prova de idiotas, e o Universo tentando produzir idiotas maiores e melhores. Até agora, o Universo está vencendo.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "4",
+      "quote": "If at first you don’t succeed, call it version 1.0",
+      "translate": "Se a princípio você não conseguir, chame-a de versão 1.0.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "5",
+      "quote": "I’m not anti-social; I’m just not user friendly.",
+      "translate": "Eu não sou anti-social; Eu simplesmente não sou amigável.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "6",
+      "quote": "If builders built buildings the way programmers wrote programs, then the first woodpecker that came along would destroy civilization.",
+      "translate": "Se os construtores construíssem edifícios da mesma forma que os programadores escreviam programas, o primeiro pica-pau que surgisse destruiria a civilização.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "7",
+      "quote": "A computer lets you make more mistakes faster than any invention in human history – with the possible exceptions of handguns and tequila.",
+      "translate": "Um computador permite que você cometa mais erros mais rápido do que qualquer invenção na história da humanidade - com as possíveis exceções de revólveres e tequila.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "8",
+      "quote": "Alert! User Error. Please replace user and press any key to continue.",
+      "translate": "Alerta! Erro do usuário. Substitua o usuário e pressione qualquer tecla para continuar.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "9",
+      "quote": "I spent a minute looking at my own code by accident. I was thinking “What the hell is this guy doing?”",
+      "translate": "Passei um minuto olhando meu próprio código por acidente. Eu estava pensando “O que diabos esse cara está fazendo?”",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "10",
+      "quote": "A Life? Cool! Where can I download one of those?",
+      "translate": "Uma vida? Legal! Onde posso baixar um desses?",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "11",
+      "quote": "Logic is the beginning of wisdom, not the end.",
+      "translate": "A lógica é o começo da sabedoria, não o fim.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "12",
+      "quote": "Enter any 11-digit prime number to continue.",
+      "translate": "Digite qualquer número primo de 11 dígitos para continuar.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "13",
+      "quote": "Passwords are like underwear. You shouldn’t leave them out where people can see them. You should change them regularly. And you shouldn’t loan them out to strangers.",
+      "translate": "As senhas são como roupas íntimas. Você não deve deixá-los de fora, onde as pessoas possam vê-los. Você deve trocá-los regularmente. E você não deve emprestá-los a estranhos.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "14",
+      "quote": "Concept: On the keyboard of life, always keep one finger on the escape button.",
+      "translate": "Conceito: No teclado da vida, mantenha sempre um dedo no botão de escape.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "15",
+      "quote": "My Software never has bugs. It just develops random features.",
+      "translate": "Meu software nunca tem bugs. Apenas desenvolve funcionalidades aleatórias.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "16",
+      "quote": "I would love to change the world, but they won’t give me the source code.",
+      "translate": "Eu adoraria mudar o mundo, mas eles não me dão o código-fonte.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "17",
+      "quote": "Never argue with the data.",
+      "translate": "Nunca discuta com os dados.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "18",
+      "quote": "Who needs friends? My PC is user friendly",
+      "translate": "Quem precisa de amigos? Meu PC é amigável",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "19",
+      "quote": "Better to be a geek than an idiot.",
+      "translate": "Melhor ser um nerd do que um idiota.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "20",
+      "quote": "Software is like sex: Its better when its free.",
+      "translate": "Software é como sexo: é melhor quando é grátis.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "21",
+      "quote": "Microsoft: You’ve got questions. We’ve got dancing paperclips.",
+      "translate": "Microsoft: Você tem perguntas. Temos clipes de papel para dançar.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "22",
+      "quote": "Try not. Do, or do not. There is no try.",
+      "translate": "Não tente. Faça ou não faça. Não há tentativa.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "23",
+      "quote": "JUST SHUT UP AND REBOOT!!",
+      "translate": "APENAS CALE A BOCA E REINICIE !!",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "24",
+      "quote": "Failure is not an option — it comes bundled with Windows.",
+      "translate": "O fracasso não é uma opção - ele vem com o Windows.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "25",
+      "quote": "In a world without fences and walls, who needs Gates and Windows?",
+      "translate": "Em um mundo sem cercas e paredes, quem precisa de portas e janelas?",
+      "author": "Dino Esposito"
+    },
+    {
+      "id": "26",
+      "quote": "In my experience there is no such thing as luck.",
+      "translate": "Na minha experiência, sorte não existe.",
+      "author": "Obi Wan Kenobi"
+    },
+
+    {
+      "id": "27",
+      "quote": "How you look at it is pretty much how you'll see it",
+      "translate": "Como você olha para isso é basicamente como você verá",
+      "author": "Rasheed Ogunlaru"
+    },
+    {
+      "id": "28",
+      "quote": "That's the thing about people who think they hate computers. What they really hate is lousy programmers",
+      "translate": "Essa é a coisa sobre as pessoas que pensam que odeiam computadores. O que eles realmente odeiam são programadores ruins",
+      "author": "Larry Niven"
+    },
+    {
+      "id": "29",
+      "quote": "Give a man a program, frustrate him for a day. Teach a man to program, frustrate him for a lifetime.",
+      "translate": "Dê a um homem um programa, frustre-o por um dia. Ensine um homem a programar, frustre-o pelo resto da vida.",
+      "author": "Muhammad Waseem"
+    },
+    {
+      "id": "30",
+      "quote": "Truth can only be found in one place: the code.",
+      "translate": "A verdade só pode ser encontrada em um lugar: o código.",
+      "author": "Robert C. Martin"
+    },
+    {
+      "id": "31",
+      "quote": "I'm not a great programmer; I'm just a good programmer with great habits.",
+      "translate": "Não sou um grande programador; Sou apenas um bom programador com ótimos hábitos.",
+      "author": "Kent Beck"
+    },
+    {
+      "id": "32",
+      "quote": "You've baked a really lovely cake, but then you've used dog shit for frosting.",
+      "translate": "Você fez um bolo realmente adorável, mas usou cocô de cachorro para fazer cobertura.",
+      "author": "Steve Jobs"
+    },
+    {
+      "id": "33",
+      "quote": "A language that doesn't affect the way you think about programming is not worth knowing.",
+      "translate": "Uma linguagem que não afeta a maneira como você pensa sobre programação não vale a pena conhecer.",
+      "author": "Alan J. Perlis"
+    },
+    {
+      "id": "34",
+      "quote": "Walking on water and developing software from a specification are easy if both are frozen",
+      "translate": "Andar sobre a água e desenvolver software a partir de uma especificação é fácil se ambos estiverem congelados",
+      "author": "Edward V. Berard"
+    },
+    {
+      "id": "35",
+      "quote": "The most disastrous thing that you can ever learn is your first programming language.",
+      "translate": "A coisa mais desastrosa que você pode aprender é sua primeira linguagem de programação.",
+      "author": "Alan Kay"
+    },
+    {
+      "id": "36",
+      "quote": "The computer programmer is a creator of universes for which he alone is the lawgiver. No playwright, no stage director, no emperor, however powerful, has ever exercised such absolute authority to arrange a stage or field of battle and to command such unswervingly dutiful actors or troops.",
+      "translate": "O programador de computador é um criador de universos dos quais só ele é o legislador. Nenhum dramaturgo, nenhum diretor de teatro, nenhum imperador, por mais poderoso que seja, jamais exerceu autoridade absoluta para organizar um palco ou campo de batalha e comandar atores ou tropas tão zelosos inabaláveis.",
+      "author": "Joseph Weizenbaum"
+    },
+    {
+      "id": "37",
+      "quote": "Perl – The only language that looks the same before and after RSA encryption.",
+      "translate": "Perl - a única linguagem que parece a mesma antes e depois da criptografia RSA.",
+      "author": "Keith Bostic"
+    },
+    {
+      "id": "38",
+      "quote": "The most important property of a program is whether it accomplishes the intention of its user.",
+      "translate": "A propriedade mais importante de um programa é se ele cumpre a necessidade de seu usuário.",
+      "author": "C.A.R. Hoare"
+    },
+    {
+      "id": "39",
+      "quote": "Programming isn't about what you know; it's about what you can figure out.",
+      "translate": "Programar não tem a ver com o que você sabe; é sobre o que você pode descobrir.",
+      "author": "Chris Pine"
+    },
+    {
+      "id": "40",
+      "quote": "The only way to learn a new programming language is by writing programs in it.",
+      "translate": "A única maneira de aprender uma nova linguagem de programação é escrevendo programas nela.",
+      "author": "Dennis Ritchie"
+    },
+    {
+      "id": "41",
+      "quote": "Sometimes it's better to leave something alone, to pause, and that's very true of programming.",
+      "translate": "Às vezes é melhor deixar algo como está, fazer uma pausa, e isso é muito verdadeiro na programação.",
+      "author": "Joyce Wheeler"
+    },
+    {
+      "id": "42",
+      "quote": "In some ways, programming is like painting. You start with a blank canvas and certain basic raw materials. You use a combination of science, art, and craft to determine what to do with them.",
+      "translate": "De certa forma, programar é como pintar. Você começa com uma tela em branco e certas matérias-primas básicas. Você usa uma combinação de ciência, arte e habilidade para determinar o que fazer com eles.",
+      "author": "Andrew Hunt"
+    },
+    {
+      "id": "43",
+      "quote": "Testing leads to failure, and failure leads to understanding.",
+      "translate": "O teste leva ao fracasso e o fracasso leva ao entendimento.",
+      "author": "Burt Rutan"
+    },
+    {
+      "id": "44",
+      "quote": "The best error message is the one that never shows up.",
+      "translate": "A melhor mensagem de erro é aquela que nunca aparece.",
+      "author": "Thomas Fuchs"
+    },
+    {
+      "id": "45",
+      "quote": "Don't write better error messages, write code that doesn't need them.",
+      "translate": "Não escreva mensagens de erro melhores, escreva código que não precise delas.",
+      "author": "Jason C. McDonald"
+    },
+    {
+      "id": "46",
+      "quote": "The most damaging phrase in the language is.. it's always been done this way",
+      "translate": "A frase mais prejudicial na linguagem é ... sempre foi feito assim",
+      "author": "Grace Hopper"
+    },
+    {
+      "id": "47",
+      "quote": "Every SQL statement that Chuck Norris codes has an implicit 'COMMIT' in its end.",
+      "translate": "Cada instrução SQL que Chuck Norris codifica tem um 'COMMIT' implícito em seu final.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "48",
+      "quote": "Chuck Norris can delete the Recycling Bin.",
+      "translate": "Chuck Norris pode excluir a lixeira.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "49",
+      "quote": "Two CSS properties walk into a bar. A barstool in a completely different bar falls over.",
+      "translate": "Duas propriedades CSS entram em uma barra. Uma banqueta de um bar completamente diferente cai.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "50",
+      "quote": "If you get tired, be like an AJAX request and REST.",
+      "translate": "Se você ficar cansado, seja como uma solicitação AJAX e REST.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "51",
+      "quote": "💕 I'm the CSS to your HTML.",
+      "translate": "💕 Sou o CSS do seu HTML.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "52",
+      "quote": "If a groundhog inspects their Web Component, do they see their Shadow DOM?",
+      "translate": "Se uma marmota inspeciona seu Web Component, ela vê seu Shadow DOM?",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "53",
+      "quote": "A Pen is worth a thousand docs.",
+      "translate": "Uma caneta vale mil documentos.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "54",
+      "quote": "Keep the <main> thing the <main> thing.",
+      "translate": "Mantenha a coisa <main> como <main>.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "55",
+      "quote": "What did the colon say to the semicolon? Stop winking at me.",
+      "translate": "O que o dois-pontos disse ao ponto-e-vírgula? Pare de piscar para mim.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "56",
+      "quote": "Learning 3D transforms in CSS requires a little perspective.",
+      "translate": "Aprender as transformações 3D em CSS requer um pouco de perspectiva.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "57",
+      "quote": "If you want to flex your skills and go off the grid, try coding a layout with float.",
+      "translate": "Se você quiser flexionar suas habilidades e sair da grade, tente codificar um layout com flutuação.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "58",
+      "quote": "Try not. Do, or do not. There is no try.",
+      "translate": "Não tente. Faça ou não faça. Não há tentativa.",
+      "author": "Yoda, The Empire Strikes Back"
+    },
+
+    {
+      "id": "59",
+      "quote": "Goonies never say die.",
+      "translate": "Goonies nunca dizem morrer.",
+      "author": "Mike, The Goonies"
+    },
+    {
+      "id": "60",
+      "quote": "Don't call me a mindless philosopher, you overweight blob of grease!",
+      "translate": "Não me chame de filósofo estúpido, seu caroço de gordura!",
+      "author": "C3PO, Star Wars"
+    },
+    {
+      "id": "61",
+      "quote": "Shall we play a game?",
+      "translate": "Vamos jogar um jogo?",
+      "author": "Joshua, WarGames"
+    },
+    {
+      "id": "62",
+      "quote": "I'm not your F1 button!",
+      "translate": "Eu não sou seu botão F1!",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "63",
+      "quote": "Talk is cheap. Show me the code.",
+      "translate": "Falar é fácil. Mostre-me o código.",
+      "author": "Linus Torwards"
+    },
+    {
+      "id": "64",
+      "quote": "I choose a lazy person to do a hard job. Because a lazy person will find an easy way to do it.",
+      "translate": "Eu escolho uma pessoa preguiçosa para fazer um trabalho difícil. Porque uma pessoa preguiçosa encontrará uma maneira fácil de fazer isso.",
+      "author": "Bill Gates"
+    },
+    {
+      "id": "65",
+      "quote": "Programming is like any other sport. You might know the rules but you have to play to learn.",
+      "translate": "A programação é como qualquer outro esporte. Você pode saber as regras, mas precisa jogar para aprender.",
+      "author": "Zuckerbeg"
+    },
+    {
+      "id": "66",
+      "quote": "The most damaging phrase in the language is -It's always been done this way-",
+      "translate": "A frase mais prejudicial da linguagem é -Isso sempre foi feito-",
+      "author": "Grace Hopper"
+    },
+    {
+      "id": "67",
+      "quote": "The best thing about a boolean is even if you are wrong, you are only off by a bit.",
+      "translate": "A melhor coisa sobre um booleano é que, mesmo que você esteja errado, você está apenas um pouco errado.",
+      "author": "Unknown Author"
+    },
+    {
+      "id": "68",
+      "quote": "I propose to consider the question, 'Can machines think?",
+      "translate": "Proponho considerar a questão: 'As máquinas podem pensar?",
+      "author": "Alan Turing"
+    },
+    {
+      "id": "69",
+      "quote": "Science is a differential equation. Religion is a boundary condition.",
+      "translate": "A ciência é uma equação diferencial. A religião é uma condição limite.",
+      "author": "Alan Turing"
+    },
+    {
+      "id": "70",
+      "quote": "A computer would deserve to be called intelligent if it could deceive a human into believing that it was human.",
+      "translate": "Um computador mereceria ser chamado de inteligente se pudesse enganar um humano fazendo-o acreditar que era humano.",
+      "author": "Alan Turing"
+    },
+    {
+      "id": "71",
+      "quote": "Clearly, I reject the view that there is one way that is right for everyone and for every problem.",
+      "translate": "Obviamente, rejeito a visão de que existe uma maneira certa para todos e para todos os problemas.",
+      "author": "Bjarne Stroustrup"
+    },
+    {
+      "id": "72",
+      "quote": "You can't trust code that you did not totally create yourself.",
+      "translate": "Você não pode confiar em um código que não foi totalmente criado por você mesmo.",
+      "author": "Ken Thomas"
+    },
+    {
+      "id": "73",
+      "quote": "The best error message is the one that never shows up.",
+      "translate": "A melhor mensagem de erro é aquela que nunca aparece.",
+      "author": "Thomas Fuchs"
+    },
+    {
+      "id": "74",
+      "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand",
+      "translate": "Qualquer idiota pode escrever um código que um computador possa entender. Bons programadores escrevem códigos que humanos podem entender",
+      "author": "Martin Fowler"
+    }
+  ]
+}
