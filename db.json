@@ -23,12 +23,6 @@
       "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
       "name": "ricardo",
       "id": 4
-    },
-    {
-      "email": "teste@teste.com",
-      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
-      "name": "Teste",
-      "id": 5
     }
   ],
   "multimedias": [
@@ -258,7 +252,6 @@
       "segment": "shopping",
       "id": 1
     },
-
     {
       "name": "Limited edition",
       "url": "https://www.limitededition.com.br/",
@@ -266,7 +259,6 @@
       "segment": "shopping",
       "id": 2
     },
-
     {
       "name": "Geek 10",
       "url": "https://www.geek10.com.br/",
@@ -274,7 +266,6 @@
       "segment": "shopping",
       "id": 3
     },
-
     {
       "name": "Geek Universe",
       "url": "https://www.geekuniverse.com.br/",
@@ -282,7 +273,6 @@
       "segment": "shopping",
       "id": 4
     },
-
     {
       "name": "Studio Geek",
       "url": "https://www.studiogeek.com.br/",
@@ -290,7 +280,6 @@
       "segment": "shopping",
       "id": 5
     },
-
     {
       "name": "Geek Hoard",
       "url": "https://www.geekhoard.com.br/",
@@ -298,7 +287,6 @@
       "segment": "shopping",
       "id": 6
     },
-
     {
       "name": "Loja Ei Nerd",
       "url": "https://www.lojaeinerd.com/",
@@ -306,7 +294,6 @@
       "segment": "shopping",
       "id": 7
     },
-
     {
       "name": "Mais 1 Nerd",
       "url": "https://mais1nerd.com.br/",
@@ -314,7 +301,6 @@
       "segment": "shopping",
       "id": 8
     },
-
     {
       "name": "Happy Nerd",
       "url": "https://www.happynerd.com.br/",
@@ -322,7 +308,6 @@
       "segment": "shopping",
       "id": 9
     },
-
     {
       "name": "Emporium Nerd",
       "url": "https://www.emporiumnerd.com.br/",
@@ -330,7 +315,6 @@
       "segment": "shopping",
       "id": 10
     },
-
     {
       "name": "Loja Nerdz",
       "url": "https://lojanerdz.com.br/",
@@ -338,7 +322,6 @@
       "segment": "shopping",
       "id": 11
     },
-
     {
       "name": "Quarto Geek",
       "url": "https://www.quartogeek.com.br/",
@@ -346,7 +329,6 @@
       "segment": "shopping",
       "id": 12
     },
-
     {
       "name": "Colorindo Nuvens",
       "url": "https://colorindonuvens.com/",
@@ -354,7 +336,6 @@
       "segment": "shopping",
       "id": 13
     },
-
     {
       "name": "Bichos Geeks",
       "url": "https://www.bichosgeeks.com/",
@@ -362,7 +343,6 @@
       "segment": "shopping",
       "id": 14
     },
-
     {
       "name": "Loja Keep Geek",
       "url": "https://www.lojakeepgeek.com.br/",
@@ -535,7 +515,6 @@
       "translate": "Na minha experiência, sorte não existe.",
       "author": "Obi Wan Kenobi"
     },
-
     {
       "id": "27",
       "quote": "How you look at it is pretty much how you'll see it",
@@ -728,7 +707,6 @@
       "translate": "Não tente. Faça ou não faça. Não há tentativa.",
       "author": "Yoda, The Empire Strikes Back"
     },
-
     {
       "id": "59",
       "quote": "Goonies never say die.",
