@@ -806,633 +806,759 @@
     {
       "id": "75",
       "quote": "Live long and prosper!",
-      "author": "Spock"
+      "author": "Spock",
+      "translate": "Vida longa e próspera!"
     },
 
     {
       "id": "77",
       "quote": "Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you.",
-      "author": "Game of Thrones"
+      "author": "Game of Thrones",
+      "translate": "Nunca se esqueça do que você é. O resto do mundo não vai. Use-o como uma armadura e nunca poderá ser usado para machucá-lo."
     },
     {
       "id": "78",
       "quote": "Every one of us must do what’s in their power! If we’re going to die anyway, then it’s better to die fighting than to do nothing!",
-      "author": "Sakura Haruno"
+      "author": "Sakura Haruno",
+      "translate": "Cada um de nós deve fazer o que está ao seu alcance! Se vamos morrer de qualquer maneira, então é melhor morrer lutando do que não fazer nada!"
     },
     {
       "id": "79",
       "quote": "A real ninja is one who endures no matter what gets thrown at him … All you do need, is the guts to never give up.",
-      "author": "Jiraiya"
+      "author": "Jiraiya",
+      "translate": "Um verdadeiro ninja é aquele que resiste, não importa o que seja jogado contra ele ... Tudo o que você precisa é ter coragem para nunca desistir."
     },
     {
       "id": "80",
       "quote": "Never underestimate your opponent, no matter how small they may seem.",
-      "author": "Shino Aburame"
+      "author": "Shino Aburame",
+      "translate": "Nunca subestime seu oponente, não importa o quão pequeno ele possa parecer."
     },
     {
       "id": "81",
       "quote": "A person grows up when he’s able to overcome hardships. Protection is important, but there are some things that a person must learn on his own.",
-      "author": "Jiraiya"
+      "author": "Jiraiya",
+      "translate": "Uma pessoa cresce quando é capaz de superar as adversidades. A proteção é importante, mas existem algumas coisas que uma pessoa deve aprender por conta própria."
     },
     {
       "id": "82",
       "quote": "People who continue to put their lives on the line to defend their faith become heroes and continue to exist on in legend.",
-      "author": "Naruto Uzumaki"
+      "author": "Naruto Uzumaki",
+      "translate": "Pessoas que continuam colocando suas vidas em risco para defender sua fé se tornam heróis e continuam existindo na lenda."
     },
     {
       "id": "83",
       "quote": "When people are protecting something truly precious to them. They truly can become…as strong as they need to be!",
-      "author": "Haku"
+      "author": "Haku",
+      "translate": "Quando as pessoas estão protegendo algo realmente precioso para elas. Eles realmente podem se tornar ... tão fortes quanto precisam ser!"
     },
     {
       "id": "84",
       "quote": "If you don’t like your destiny, don’t accept it. Instead have the courage to change it the way you want it to be.",
-      "author": "Naruto Uzumaki"
+      "author": "Naruto Uzumaki",
+      "translate": "Se você não gosta do seu destino, não aceite. Em vez disso, tenha a coragem de mudá-lo da maneira que você deseja que seja."
     },
     {
       "id": "85",
       "quote": "Never give up without even trying. Do what you can, no matter how small the effect it may have!",
-      "author": "Onoki"
+      "author": "Onoki",
+      "translate": "Nunca desista sem nem mesmo tentar. Faça o que puder, não importa quão pequeno o efeito possa ter!"
     },
     {
       "id": "86",
       "quote": "Hard work is worthless for those that don’t believe in themselves.",
-      "author": "Naruto Uzumaki"
+      "author": "Naruto Uzumaki",
+      "translate": "O trabalho árduo não vale a pena para aqueles que não acreditam em si mesmos."
     },
     {
       "id": "87",
       "quote": "Power is not will, it is the phenomenon of physically making things happen.",
-      "author": "Madara Uchiha"
+      "author": "Madara Uchiha",
+      "translate": "Poder não é vontade, é o fenômeno de fazer as coisas acontecerem fisicamente."
     },
     {
       "id": "88",
       "quote": "Destiny. Fate. Dreams. These unstoppable ideas are held deep in the heart of man. As long as there are people who seek freedom in this life, these things shall not vanish from the Earth.",
-      "author": "Gold D. Rodger"
+      "author": "Gold D. Rodger",
+      "translate": "Destino. Destino. Sonhos. Essas ideias imparáveis estão profundamente arraigadas no coração do homem. Enquanto houver pessoas que buscam a liberdade nesta vida, essas coisas não desaparecerão da Terra."
     },
     {
       "id": "89",
       "quote": "Don’t start a fight if you can’t end it.",
-      "author": "Sanji"
+      "author": "Sanji",
+      "translate": "Não comece uma luta se você não pode acabar com ela."
     },
     {
       "id": "90",
       "quote": "Life is like a pencil that will surely run out, but will leave the beautiful writing of life.",
-      "author": "Nami"
+      "author": "Nami",
+      "translate": "A vida é como um lápis que certamente se esgotará, mas deixará a bela escrita da vida."
     },
     {
       "id": "91",
       "quote": "Fools who don’t respect the past are likely to repeat it.",
-      "author": "Nico Robin"
+      "author": "Nico Robin",
+      "translate": "Os tolos que não respeitam o passado provavelmente o repetirão."
     },
     {
       "id": "92",
       "quote": "We have to live a life of no regrets.",
-      "author": "Portgas D. Ace"
+      "author": "Portgas D. Ace",
+      "translate": "Temos que viver uma vida sem arrependimentos."
     },
     {
       "id": "93",
       "quote": "When the world shoves you around, you just gotta stand up and shove back. It’s not like somebody’s gonna save you if you start babbling excuses.",
-      "author": "Roronoa Zoro"
+      "author": "Roronoa Zoro",
+      "translate": "Quando o mundo o empurra, você só precisa se levantar e empurrar de volta. Não é como se alguém fosse salvá-lo se você começar a balbuciar desculpas."
     },
     {
       "id": "94",
       "quote": "Power isn’t determined by your size, but the size of your heart and dreams!",
-      "author": "Monkey D Luffy"
+      "author": "Monkey D Luffy",
+      "translate": "O poder não é determinado pelo seu tamanho, mas pelo tamanho do seu coração e dos seus sonhos!"
     },
     {
       "id": "95",
       "quote": "You need to accept the fact that you’re not the best and have all the will to strive to be better than anyone you face.",
-      "author": "Roronoa Zoro"
+      "author": "Roronoa Zoro",
+      "translate": "Você precisa aceitar o fato de que não é o melhor e ter toda a vontade de se esforçar para ser melhor do que qualquer pessoa que enfrente."
     },
     {
       "id": "96",
       "quote": "No matter how hard or impossible it is, never lose sight of your goal.",
-      "author": "Monkey D Luffy"
+      "author": "Monkey D Luffy",
+      "translate": "Não importa o quão difícil ou impossível seja, nunca perca de vista seu objetivo."
     },
     {
       "id": "97",
       "quote": "It may be hard right now… But you must silence those thoughts! Stop counting only those things that you have lost! What is gone, is gone!",
-      "author": "Jinbei"
+      "author": "Jinbei",
+      "translate": "Pode ser difícil agora ... Mas você deve silenciar esses pensamentos! Pare de contar apenas as coisas que você perdeu! O que se foi, se foi!"
     },
     {
       "id": "98",
       "quote": "The moon does not mourn over the dead. What it does is shine a light on the truth.",
-      "author": "Shinichi Kudo"
+      "author": "Shinichi Kudo",
+      "translate": "A lua não chora pelos mortos. O que ela faz é iluminar a verdade."
     },
     {
       "id": "99",
       "quote": "By looking at what’s blocking our way, with an open mind, a wall can be turned into a wide-open door.",
-      "author": "Shinichi Kudo"
+      "author": "Shinichi Kudo",
+      "translate": "Ao olhar para o que está bloqueando nosso caminho, com uma mente aberta, uma parede pode ser transformada em uma porta totalmente aberta."
     },
     {
       "id": "100",
       "quote": "Courage is a word that gives you the strength to do what’s right.",
-      "author": "Ran Mouri"
+      "author": "Ran Mouri",
+      "translate": "Coragem é uma palavra que lhe dá força para fazer o que é certo."
     },
     {
       "id": "101",
       "quote": "A trick is nothing but a puzzle mankind came up with. If you use your head, you can uncover the logical answer.",
-      "author": "Shinichi Kudo"
+      "author": "Shinichi Kudo",
+      "translate": "Um truque nada mais é do que um quebra-cabeça que a humanidade criou. Se você usar a cabeça, poderá descobrir a resposta lógica."
     },
     {
       "id": "102",
       "quote": "Give advice and good guidance, then halt if such is of no avail. Do not disgrace yourself for it.",
-      "author": "Takaaki Morofushi"
+      "author": "Takaaki Morofushi",
+      "translate": "Dê conselhos e boas orientações, então pare, se não adiantarem. Não se envergonhe por isso."
     },
     {
       "id": "103",
       "quote": "Justice isn’t something that you can just proclaim. It’s a feeling you should keep near your heart.",
-      "author": "Miwako Sato"
+      "author": "Miwako Sato",
+      "translate": "Justiça não é algo que você pode simplesmente proclamar. É um sentimento que você deve manter perto do seu coração."
     },
     {
       "id": "104",
       "quote": "The strong one doesn’t win. The one who wins is strong.",
-      "author": "Shinichi Kudo"
+      "author": "Shinichi Kudo",
+      "translate": "O forte não vence. Quem vence é forte."
     },
     {
       "id": "105",
       "quote": "Life is short so it will be appreciated. We live to our fullest due to that.",
-      "author": "Hattori Heiji"
+      "author": "Hattori Heiji",
+      "translate": "A vida é curta, então será apreciada. Vivemos ao máximo devido a isso."
     },
     {
       "id": "106",
       "quote": "Words are like swords. If you use them the wrong way, they can turn into ugly weapons.",
-      "author": "Shinichi Kudo"
+      "author": "Shinichi Kudo",
+      "translate": "Palavras são como espadas. Se você usá-los da maneira errada, eles podem se transformar em armas horríveis."
     },
     {
       "id": "107",
       "quote": "When people make a mistake, it is nice to give them advice, but… if they don’t listen, just leave them alone. Otherwise, you’ll do yourself a disservice by wasting your time and effort.",
-      "author": "Ran Mouri"
+      "author": "Ran Mouri",
+      "translate": "Quando as pessoas cometem um erro, é bom aconselhá-las, mas ... se elas não ouvirem, deixe-as em paz. Caso contrário, você prestará um desserviço a si mesmo ao desperdiçar seu tempo e esforço."
     },
     {
       "id": "108",
       "quote": "I do not fear this new challenge, rather like a true warrior I will rise to meet it.",
-      "author": "Vegeta"
+      "author": "Vegeta",
+      "translate": "Não temo este novo desafio, antes, como um verdadeiro guerreiro, me levantarei para enfrentá-lo."
     },
     {
       "id": "109",
       "quote": "There’s no such thing as fair or unfair in battle. There is only victory or in your case, defeat.",
-      "author": "Vegeta"
+      "author": "Vegeta",
+      "translate": "Não existe justo ou injusto na batalha. Só há vitória ou, no seu caso, derrota."
     },
     {
       "id": "110",
       "quote": "Death is simply another stage of our life.",
-      "author": "Grand Elder Guru"
+      "author": "Grand Elder Guru",
+      "translate": "A morte é simplesmente outra etapa da nossa vida."
     },
     {
       "id": "111",
       "quote": "Sometimes, we have to look beyond what we want and do what’s best.",
-      "author": "Piccolo"
+      "author": "Piccolo",
+      "translate": "Às vezes, temos que olhar além do que queremos e fazer o que é melhor."
     },
     {
       "id": "112",
       "quote": "You can take control of my mind and my body, but there is one thing a Saiyan always keep… his PRIDE!",
-      "author": "Vegeta"
+      "author": "Vegeta",
+      "translate": "Você pode controlar minha mente e meu corpo, mas há uma coisa que um Saiyan sempre mantém ... seu ORGULHO!"
     },
     {
       "id": "113",
       "quote": "You’ll laugh at your fears when you find out who you are.",
-      "author": "Piccolo"
+      "author": "Piccolo",
+      "translate": "Você vai rir de seus medos quando descobrir quem você é."
     },
     {
       "id": "114",
       "quote": "Push through the pain, giving up hurts more.",
-      "author": "Vegeta"
+      "author": "Vegeta",
+      "translate": "Empurre a dor, desistir dói mais."
     },
     {
       "id": "115",
       "quote": "Me personally, I like to work and train.",
-      "author": "Goku"
+      "author": "Goku",
+      "translate": "Eu pessoalmente gosto de trabalhar e treinar."
     },
     {
       "id": "116",
       "quote": "Even the mightiest warriors experience fears. What makes them a true warrior is the courage that they posses to overcome their fears.",
-      "author": "Vegeta"
+      "author": "Vegeta",
+      "translate": "Até os guerreiros mais poderosos experimentam medos. O que os torna um verdadeiro guerreiro é a coragem que possuem para superar seus medos."
     },
     {
       "id": "117",
       "quote": "Power comes in response to a need, not a desire. You have to create that need.",
-      "author": "Goku"
+      "author": "Goku",
+      "translate": "O poder vem em resposta a uma necessidade, não a um desejo. Você tem que criar essa necessidade."
     },
     {
       "id": "118",
       "quote": "I won’t give up. I’ll never give up again. So I’ll win, no matter what! I’ll survive no matter what.",
-      "author": "Mikasa Ackerman"
+      "author": "Mikasa Ackerman",
+      "translate": "Eu não vou desistir. Eu nunca vou desistir de novo. Então eu vou ganhar, não importa o que aconteça! Eu vou sobreviver não importa o que aconteça."
     },
     {
       "id": "119",
       "quote": "People who can’t throw something important away, can never hope to change anything.",
-      "author": "Armin Arlert"
+      "author": "Armin Arlert",
+      "translate": "pessoas que não podem jogar algo importante fora, nunca podem esperar mudar nada."
     },
     {
       "id": "120",
       "quote": "We need to stop living for others. From now on…Let’s live for ourselves!",
-      "author": "Historia Reiss"
+      "author": "Historia Reiss",
+      "translate": "Precisamos parar de viver para os outros. De agora em diante ... Vamos viver para nós mesmos!"
     },
     {
       "id": "121",
       "quote": "Even in moments of the deepest despair… I guess we can still find hope, huh?",
-      "author": "Hange Zoe"
+      "author": "Hange Zoe",
+      "translate": "Mesmo em momentos de profundo desespero ... Acho que ainda podemos encontrar esperança, hein?"
     },
     {
       "id": "122",
       "quote": "Do you always want to live hiding behind the mask you put up for the sake of others? You’re you, and there’s nothing wrong with that.",
-      "author": "Ymir"
+      "author": "Ymir",
+      "translate": "Você sempre quer viver escondido atrás da máscara que colocou para o bem dos outros? Você é você, e não há nada de errado com isso."
     },
     {
       "id": "123",
       "quote": "No matter how messed up things get, you can always figure out the best solution.",
-      "author": "Eren Jaeger"
+      "author": "Eren Jaeger",
+      "translate": "Não importa o quão confuso as coisas fiquem, você sempre pode descobrir a melhor solução."
     },
     {
       "id": "124",
       "quote": "Endure it. Don’t let go.",
-      "author": "Armin Arlert"
+      "author": "Armin Arlert",
+      "translate": "Agüente. Não deixe ir."
     },
     {
       "id": "125",
       "quote": "If you win you live. If you lose you die. If you don’t fight, you can’t win.",
-      "author": "Eren Jaeger"
+      "author": "Eren Jaeger",
+      "translate": "Se você vencer, você vive. Se você perder, você morre. Se você não lutar, você não pode vencer."
     },
     {
       "id": "126",
       "quote": "Believe in your own power.",
-      "author": "Mikasa Ackerman"
+      "author": "Mikasa Ackerman",
+      "translate": "Acredite em seu próprio poder."
     },
     {
       "id": "127",
       "quote": "I want to see and understand the world outside. I don’t want to die inside these walls without knowing what’s out there.",
-      "author": "Eren Jaeger"
+      "author": "Eren Jaeger",
+      "translate": "Quero ver e compreender o mundo exterior. Eu não quero morrer dentro dessas paredes sem saber o que está lá fora."
     },
     {
       "id": "128",
       "quote": "Helping other people is the best way to make up for your mistakes.",
-      "author": "Kenshin Himura"
+      "author": "Kenshin Himura",
+      "translate": "Ajudar outras pessoas é a melhor maneira de compensar seus erros."
     },
     {
       "id": "129",
       "quote": "If we were normal, we might not be alive today. And that, my friend, is what gives us the edge we need.",
-      "author": "Makoto Shishio"
+      "author": "Makoto Shishio",
+      "translate": "Se fôssemos normais, talvez não estivéssemos vivos hoje. E isso, meu amigo, é o que nos dá a vantagem de que precisamos."
     },
     {
       "id": "130",
       "quote": "You can die anytime, but living takes true courage.",
-      "author": "Kenshin Himura"
+      "author": "Kenshin Himura",
+      "translate": "Você pode morrer a qualquer momento, mas viver exige verdadeira coragem."
     },
     {
       "id": "131",
       "quote": "It is foolish to listen to one who will not listen to you. Do as you wish.",
-      "author": "Seijuro Hiko"
+      "author": "Seijuro Hiko",
+      "translate": "É tolice ouvir alguém que não quer ouvir você. Faça como quiser."
     },
     {
       "id": "132",
       "quote": "We shouldn’t blame ourselves for bad things that happened to us. Sometimes, no matter what we do, we are victims of the circumstances.",
-      "author": "Kenshin Himura"
+      "author": "Kenshin Himura",
+      "translate": "Não devemos nos culpar por coisas ruins que aconteceram conosco. Às vezes, não importa o que façamos, somos vítimas das circunstâncias."
     },
     {
       "id": "133",
       "quote": "A man that can’t hold on to his beliefs can only be pathetic, dead or alive.",
-      "author": "Hajime Saito"
+      "author": "Hajime Saito",
+      "translate": "Um homem que não consegue manter suas crenças só pode ser patético, vivo ou morto."
     },
     {
       "id": "134",
       "quote": "Trivial setbacks like yours and mine are nothing but common occurrences in everyday life!",
-      "author": "Seiya Kanie"
+      "author": "Seiya Kanie",
+      "translate": "Recuos triviais como o seu e o meu nada mais são do que ocorrências comuns na vida cotidiana!"
     },
     {
       "id": "135",
       "quote": "If you wanna make people dream, you’ve gotta start by believing in that dream yourself!",
-      "author": "Seiya Kanie"
+      "author": "Seiya Kanie",
+      "translate": "Se você quer fazer as pessoas sonharem, você precisa começar acreditando nesse sonho!"
     },
     {
       "id": "136",
       "quote": "Sometimes one must lose the battle in order to win the war.",
-      "author": "Isuzu Sento"
+      "author": "Isuzu Sento",
+      "translate": "Às vezes, é preciso perder a batalha para ganhar a guerra."
     },
     {
       "id": "137",
       "quote": "If you wanna wallow in your tears, save it for after you’ve done everything you can.",
-      "author": "Seiya Kanie"
+      "author": "Seiya Kanie",
+      "translate": "Se você quiser chafurdar em suas lágrimas, guarde-as para depois de fazer tudo o que puder."
     },
     {
       "id": "138",
       "quote": "If you don’t believe in anything, it no longer has the power to hurt.",
-      "author": "Eureka, 'Eureka Seven', 2005 - 2012"
+      "author": "Eureka, 'Eureka Seven', 2005 - 2012",
+      "translate": "Se você não acredita em nada, isso não tem mais o poder de machucar."
     },
     {
       "id": "139",
       "quote": "Nothing’s perfect, the world’s not perfect, but it’s there for us, trying the best it can. That’s what makes it so damn beautiful.",
-      "author": "Roy Mustang, 'Fullmetal Alchemist', 2003 - 2004"
+      "author": "Roy Mustang, 'Fullmetal Alchemist', 2003 - 2004",
+      "translate": ""
     },
     {
       "id": "140",
       "quote": "Don’t beg for it, earn it. Do it, and you’ll be rewarded.",
-      "author": "Renton Thurston, 'Eureka Seven', 2005 - 2012"
+      "author": "Renton Thurston, 'Eureka Seven', 2005 - 2012",
+      "translate": "Nada é perfeito, o mundo não é perfeito, mas está lá para nós, tentando o melhor que pode. Isso é o que o torna tão bonito."
     },
     {
       "id": "141",
       "quote": "If you can truly believe in something, then the power of your belief will make it real.",
-      "author": "Diane Thurston, 'Eureka Seven', 2005 - 2012"
+      "author": "Diane Thurston, 'Eureka Seven', 2005 - 2012",
+      "translate": "Se você pode realmente acreditar em algo, o poder de sua crença tornará isso real."
     },
     {
       "id": "142",
       "quote": "I got my lifting and as long as I can keep lifting, no matter where I am, everything’s okay.",
-      "author": "Renton Thurston, 'Eureka Seven', 2005 - 2012"
+      "author": "Renton Thurston, 'Eureka Seven', 2005 - 2012",
+      "translate": "Eu fiz meu levantamento e enquanto eu puder continuar levantando, não importa onde eu esteja, está tudo bem."
     },
     {
       "id": "143",
       "quote": "You’re not a good for nothing person. I think that being able to try your hardest to be something is a talent by itself.",
-      "author": "Alphonse Elric, 'Fullmetal Alchemist', 2003 - 2004"
+      "author": "Alphonse Elric, 'Fullmetal Alchemist', 2003 - 2004",
+      "translate": "Você não é uma pessoa que presta para nada. Acho que ser capaz de dar o seu melhor para ser alguma coisa é um talento por si só."
     },
     {
       "id": "144",
       "quote": "You have to figure it out. Stand up and walk. Keep moving forward. You’ve got two good legs. So get up and use them. You’re strong enough to make your own path.",
-      "author": "Edward Elric, 'Fullmetal Alchemist', 2003 - 2004"
+      "author": "Edward Elric, 'Fullmetal Alchemist', 2003 - 2004",
+      "translate": "Você tem que descobrir. Levante-se e ande. Siga em Frente. Você tem duas pernas boas. Então levante-se e use-os. Você é forte o suficiente para fazer seu próprio caminho."
     },
     {
       "id": "145",
       "quote": "Don’t worry about what other people think. Hold your head up high and plunge forward.",
-      "author": "Izuku Midoriya, 'My Hero Academia', 2016 - Present"
+      "author": "Izuku Midoriya, 'My Hero Academia', 2016 - Present",
+      "translate": "Não se preocupe com o que as outras pessoas pensam. Mantenha a cabeça erguida e mergulhe para a frente."
     },
     {
       "id": "146",
       "quote": "Like I always say, can’t find a door? Make your own.",
-      "author": "Edward Elric, 'Fullmetal Alchemist', 2003 - 2004"
+      "author": "Edward Elric, 'Fullmetal Alchemist', 2003 - 2004",
+      "translate": "Like I always say, can’t find a door? Make your own."
     },
     {
       "id": "147",
       "quote": "My motivation might seem trivial compared to yours, but I can’t lose, either. I have to live up to the hopes of those who supported me.",
-      "author": "Izuku Midoriya, 'My Hero Academia', 2016 - Present"
+      "author": "Izuku Midoriya, 'My Hero Academia', 2016 - Present",
+      "translate": "Minha motivação pode parecer trivial em comparação com a sua, mas também não posso perder. Eu tenho que viver de acordo com as esperanças daqueles que me apoiaram."
     },
     {
       "id": "148",
       "quote": "A person who does nothing but pose is sure to trip up someday.",
-      "author": "Doraemon, 'Doraemon', 1973 - Present"
+      "author": "Doraemon, 'Doraemon', 1973 - Present",
+      "translate": "Uma pessoa que não faz nada além de posar certamente tropeçará algum dia."
     },
     {
       "id": "149",
       "quote": "Sometimes the things that matter the most are right in front of you.",
-      "author": "Yuuki Asuna, 'Show Art Online', 2012 - Present"
+      "author": "Yuuki Asuna, 'Show Art Online', 2012 - Present",
+      "translate": "Às vezes, as coisas que mais importam estão bem na sua frente."
     },
     {
       "id": "150",
       "quote": "A life that lives without doing anything is the same as a slow death.",
-      "author": "Lelouch, 'Code Geass', 2006 - 2012."
+      "author": "Lelouch, 'Code Geass', 2006 - 2012.",
+      "translate": "Uma vida que vive sem fazer nada é o mesmo que uma morte lenta."
     },
     {
       "id": "151",
       "quote": "Don’t just accept loss or defeat! Accept it after you’re dead. If you lose without dying… it means that luck is on your side.",
-      "author": "Kenpachi Zaraki, 'Bleach', 2004 - 2012"
+      "author": "Kenpachi Zaraki, 'Bleach', 2004 - 2012",
+      "translate": "Não aceite apenas a perda ou derrota! Aceite depois de morto. Se você perder sem morrer ... significa que a sorte está do seu lado."
     },
     {
       "id": "152",
       "quote": "You shouldn’t be crying over those things that happened in the past. Think of this, why do you think your eyes are placed in front? That is for you to see what’s up ahead.",
-      "author": "Doraemon, 'Doraemon', 1973 - Present"
+      "author": "Doraemon, 'Doraemon', 1973 - Present",
+      "translate": "Você não deveria chorar por causa das coisas que aconteceram no passado. Pense nisso, por que você acha que seus olhos estão colocados à frente? Isso é para você ver o que está por vir."
     },
     {
       "id": "153",
       "quote": "In their heart, everyone has faith that their victory exists. However, in the face of time and destiny, the act of faith is fruitless and fleeting at best.",
-      "author": "C.C, 'Code Geass', 2006 - 2012"
+      "author": "C.C, 'Code Geass', 2006 - 2012",
+      "translate": "Em seus corações, todos têm fé que sua vitória existe. No entanto, em face do tempo e do destino, o ato de fé é infrutífero e, na melhor das hipóteses, passageiro."
     },
     {
       "id": "154",
       "quote": "Life isn’t just doing things for yourself. It’s possible to live in such a way that other people’s happiness, makes you happy too.",
-      "author": "Asuna Yuuki, 'Show Art Online', 2012 - Present"
+      "author": "Asuna Yuuki, 'Show Art Online', 2012 - Present",
+      "translate": "A vida não é apenas fazer coisas para você. É possível viver de forma que a felicidade das outras pessoas também te faça feliz."
     },
     {
       "id": "155",
       "quote": "A life without no changes can’t be called life. You can only call it experience.",
-      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012"
+      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012",
+      "translate": "Uma vida sem mudanças não pode ser chamada de vida. Você só pode chamar isso de experiência."
     },
     {
       "id": "156",
       "quote": "It’s easier to crush a dream than realize one. Forming a bond is infinitely more difficult than breaking one.",
-      "author": "Gin Ichimaru, 'Bleach', 2004 - 2012"
+      "author": "Gin Ichimaru, 'Bleach', 2004 - 2012",
+      "translate": "É mais fácil destruir um sonho do que realizá-lo. Formar um vínculo é infinitamente mais difícil do que romper um."
     },
     {
       "id": "157",
       "quote": "You can't expect to win every single battle, but love's worth fighting for",
-      "author": "Brock, 'Pokemon', 1997 - Present"
+      "author": "Brock, 'Pokemon', 1997 - Present",
+      "translate": "Você não pode esperar vencer todas as batalhas, mas vale a pena lutar pelo amor"
     },
     {
       "id": "158",
       "quote": "When people constantly show their affection for you, you start taking it for granted. If you don’t realize how much they care for you until they’re gone, you’ll only be left with regret and remorse.",
-      "author": "Orihime Inoue, 'Bleach', 2004 - 2012"
+      "author": "Orihime Inoue, 'Bleach', 2004 - 2012",
+      "translate": "Quando as pessoas constantemente mostram sua afeição por você, você começa a achar que é algo natural. Se você não perceber o quanto eles se importam com você até que tenham partido, você só ficará com arrependimento e remorso."
     },
     {
       "id": "159",
       "quote": "Whether here or in the real world, you can cry when it hurts. There’s no rule that you can’t show feelings just because it’s a game.",
-      "author": "Kirito, 'Show Art Online', 2012 - Present"
+      "author": "Kirito, 'Show Art Online', 2012 - Present",
+      "translate": "Seja aqui ou no mundo real, você pode chorar quando dói. Não há regra que diga que você não pode demonstrar sentimentos só porque é um jogo."
     },
     {
       "id": "160",
       "quote": "Before creation there must be destruction. If my soul stands in the way, then I’ll toss it aside. Yes, I have no choice but to move forward.",
-      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012"
+      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012",
+      "translate": "Antes da criação, deve haver destruição. Se minha alma estiver no caminho, vou jogá-la de lado. Sim, não tenho escolha a não ser seguir em frente."
     },
     {
       "id": "161",
       "quote": "Even if no one believes in you, stick out your best and scream your defiance!",
-      "author": "Rukia Kuchiki, 'Bleach', 2004 - 2012"
+      "author": "Rukia Kuchiki, 'Bleach', 2004 - 2012",
+      "translate": "Mesmo que ninguém acredite em você, dê o seu melhor e grite seu desafio!"
     },
     {
       "id": "162",
       "quote": "A Caterpie may change into a Butterfree, but the heart that beats inside remains the same.",
-      "author": "Brock, 'Pokemon', 1997 - Present"
+      "author": "Brock, 'Pokemon', 1997 - Present",
+      "translate": "Um Caterpie pode se transformar em um Butterfree, mas o coração que bate por dentro permanece o mesmo."
     },
     {
       "id": "163",
       "quote": "People are all evil. In order to falsely believe yourself to be just, you must inevitably falsely believe that someone else is more evil than you.",
-      "author": "Orihime Inoue, 'Bleach', 2004 - 2012"
+      "author": "Orihime Inoue, 'Bleach', 2004 - 2012",
+      "translate": "As pessoas são todas más. A fim de acreditar falsamente que é justo, você deve inevitavelmente acreditar falsamente que outra pessoa é mais má do que você."
     },
     {
       "id": "164",
       "quote": "God would never put us through all this suffering if he didn’t think we could bear it.",
-      "author": "Yuuki Konno, 'Show Art Online', 2012 - Present"
+      "author": "Yuuki Konno, 'Show Art Online', 2012 - Present",
+      "translate": "Deus nunca nos faria passar por todo esse sofrimento se não pensasse que poderíamos suportar."
     },
     {
       "id": "165",
       "quote": "Why do people lie? It isn’t only because they struggle against each other, it’s also because there is something that they’re seeking.",
-      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012"
+      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012",
+      "translate": "Por que as pessoas mentem? Não é apenas porque eles lutam um contra o outro, é também porque há algo que eles estão procurando."
     },
     {
       "id": "170",
       "quote": "Become strong not just for your own sake, but for your friends.",
-      "author": "Ichigo Kurosaki, 'Bleach', 2004 - 2012"
+      "author": "Ichigo Kurosaki, 'Bleach', 2004 - 2012",
+      "translate": "Torne-se forte não apenas para seu próprio bem, mas para seus amigos."
     },
     {
       "id": "171",
       "quote": "You’ll stumble many times in the future, but when you do, each time you’ll have more strength to bounce back.",
-      "author": "Nobita, 'Doraemon', 1973 - Present"
+      "author": "Nobita, 'Doraemon', 1973 - Present",
+      "translate": "Você vai tropeçar muitas vezes no futuro, mas quando o fizer, cada vez terá mais força para se recuperar."
     },
     {
       "id": "172",
       "quote": "I see now that one’s birth is irrelevant. It’s what you do that determines who you are.",
-      "author": "Mewtwo, 'Pokemon', 1997 - Present"
+      "author": "Mewtwo, 'Pokemon', 1997 - Present",
+      "translate": "Eu vejo agora que o nascimento de uma pessoa é irrelevante. É o que você faz que determina quem você é."
     },
     {
       "id": "173",
       "quote": "I thought that the closer the real and virtual world got, the better the future would be. But the more the boundary between them blurs, the more it starts to trick people.",
-      "author": "Kirito, 'Show Art Online', 2012 - Present"
+      "author": "Kirito, 'Show Art Online', 2012 - Present",
+      "translate": "Achei que quanto mais próximo ficasse o mundo real e o virtual, melhor seria o futuro. Mas quanto mais a fronteira entre eles se confunde, mais começa a enganar as pessoas."
     },
     {
       "id": "174",
       "quote": "If happiness had a form, what would it look like? It might be something like glass, because one doesn’t notice it normally. However, it is actually there … It will state it’s presence and existence more eloquently than any other thing in this world.",
-      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012"
+      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012",
+      "translate": "Se a felicidade tivesse uma forma, como seria? Pode ser algo como vidro, porque normalmente não se nota. No entanto, ele está realmente lá ... Ele afirmará sua presença e existência de forma mais eloquente do que qualquer outra coisa neste mundo."
     },
     {
       "id": "175",
       "quote": "That’s just the way it is. Change is inevitable. Instead of resisting it, you’re better served simply going with the flow.",
-      "author": "Shunsui Kyouraku, 'Bleach', 2004 - 2012"
+      "author": "Shunsui Kyouraku, 'Bleach', 2004 - 2012",
+      "translate": "É assim que as coisas são. A mudança é inevitável. Em vez de resistir, é melhor você simplesmente seguir o fluxo. "
     },
     {
       "id": "176",
       "quote": "The value of a human being is within himself. Even though your face is very ugly, you do not need to be ashamed!",
-      "author": "Nobita, 'Doraemon', 1973 - Present"
+      "author": "Nobita, 'Doraemon', 1973 - Present",
+      "translate": "O valor de um ser humano está dentro dele mesmo. Mesmo que seu rosto seja muito feio, você não precisa ter vergonha!"
     },
     {
       "id": "177",
       "quote": "If you’re brave and courageous and never quit you can come out a winner, just like me.",
-      "author": "Brock, 'Pokemon', 1997 - Present"
+      "author": "Brock, 'Pokemon', 1997 - Present",
+      "translate": "Se você for corajoso e corajoso e nunca desistir, você pode se tornar um vencedor, assim como eu."
     },
     {
       "id": "178",
       "quote": "All things change in a dynamic environment. Your effort to remain what you are is what limits you.",
-      "author": "Puppet Master, 'Ghost In The Shell', 1995"
+      "author": "Puppet Master, 'Ghost In The Shell', 1995",
+      "translate": "Todas as coisas mudam em um ambiente dinâmico. Seu esforço para permanecer o que você é é o que o limita."
     },
     {
       "id": "179",
       "quote": "I think it’s better to leave with decorum and great dignity.",
-      "author": "Jiji, 'Kiki’s Delivery Service', 1989"
+      "author": "Jiji, 'Kiki’s Delivery Service', 1989",
+      "translate": "Acho melhor sair com decoro e muita dignidade."
     },
     {
       "id": "180",
       "quote": "You cannot alter your fate. However, you can rise to meet it.",
-      "author": "Hii-Sama, 'Princess Mononoke', 1997"
+      "author": "Hii-Sama, 'Princess Mononoke', 1997",
+      "translate": "você não pode alterar seu destino. No entanto, você pode se levantar para enfrentá-lo."
     },
     {
       "id": "181",
       "quote": "You should never judge others by their looks.",
-      "author": "Lisa, 'Ponyo', 2008"
+      "author": "Lisa, 'Ponyo', 2008",
+      "translate": "Você nunca deve julgar os outros pela aparência."
     },
     {
       "id": "182",
       "quote": "You have to accept life as it is. Acceptance is the key for surviving the worst situations.",
-      "author": "Takashi, 'My Neighbors the Yamadas', 1999"
+      "author": "Takashi, 'My Neighbors the Yamadas', 1999",
+      "translate": "Você tem que aceitar a vida como ela é. Aceitação é a chave para sobreviver às piores situações."
     },
     {
       "id": "183",
       "quote": "We each need to find our own inspiration, Kiki. Sometimes it’s not easy.",
-      "author": "Ursula, 'Kiki’s Delivery Service', 1989"
+      "author": "Ursula, 'Kiki’s Delivery Service', 1989",
+      "translate": "Cada um de nós precisa encontrar sua própria inspiração, Kiki. Às vezes não é fácil."
     },
     {
       "id": "184",
       "quote": "Inspiration unlocks the future.",
-      "author": "Caproni, 'The Wind Rises', 2013"
+      "author": "Caproni, 'The Wind Rises', 2013",
+      "translate": "A inspiração abre o futuro."
     },
     {
       "id": "185",
       "quote": "You're only five, but you're very smart. Sometimes we take a leap. Be brave.",
-      "author": "Lisa, 'Ponyo', 2008"
+      "author": "Lisa, 'Ponyo', 2008",
+      "translate": "Você tem apenas cinco anos, mas é muito inteligente. Às vezes, damos um salto. Seja corajoso."
     },
     {
       "id": "186",
       "quote": "Sometimes you have to fight for the things that are worth fighting for.",
-      "author": "Arrietty, 'The Secret World Of Arrietty', 2010"
+      "author": "Arrietty, 'The Secret World Of Arrietty', 2010",
+      "translate": "Às vezes, você tem que lutar por coisas pelas quais vale a pena lutar."
     },
     {
       "id": "187",
       "quote": "Just follow your heart and keep smiling.",
-      "author": "Kokiri, 'Kiki’s Delivery Service', 1989"
+      "author": "Kokiri, 'Kiki’s Delivery Service', 1989",
+      "translate": "Apenas siga seu coração e continue sorrindo."
     },
     {
       "id": "188",
       "quote": "Life is suffering. It is hard. The world is cursed. But still you find reasons to keep living.",
-      "author": "Lady Eboshi, 'Princess Mononoke', 1997"
+      "author": "Lady Eboshi, 'Princess Mononoke', 1997",
+      "translate": "A vida está sofrendo. É difícil. O mundo está amaldiçoado. Mas ainda assim você encontra motivos para continuar vivendo."
     },
     {
       "id": "189",
       "quote": "An overweight spirit needs no diet! Go forward, superhero, to anywhere you please!",
-      "author": "Kosaku Tokita, 'Paprika', 2006"
+      "author": "Kosaku Tokita, 'Paprika', 2006",
+      "translate": "Um espírito com excesso de peso não precisa de dieta! Vá em frente, super-herói, para qualquer lugar que você quiser!"
     },
     {
       "id": "190",
       "quote": "You must face it, Cob. Everyone fears their own mortality.",
-      "author": "Prince Arren, 'Tales from Earthsea', 2006"
+      "author": "Prince Arren, 'Tales from Earthsea', 2006",
+      "translate": "Você deve enfrentar isso, Cob. Todos temem sua própria mortalidade."
     },
     {
       "id": "191",
       "quote": "Everybody, try laughing. Then whatever scares you will go away!",
-      "author": "Tatsuo Kusakabe, 'My Neighbor Totoro', 1988"
+      "author": "Tatsuo Kusakabe, 'My Neighbor Totoro', 1988",
+      "translate": "Todo mundo, tente rir. Então, tudo o que assusta você irá embora!"
     },
     {
       "id": "192",
       "quote": "It’s not really important what color your dress is. What matters is the heart inside.",
-      "author": "Kokiri, 'Kiki’s Delivery Service', 1989"
+      "author": "Kokiri, 'Kiki’s Delivery Service', 1989",
+      "translate": "Não é muito importante a cor do seu vestido. O que importa é o coração por dentro."
     },
     {
       "id": "193",
       "quote": "Cut off a wolf’s head and it still has the power to bite.",
-      "author": "Lady Eboshi, 'Princess Mononoke', 1997"
+      "author": "Lady Eboshi, 'Princess Mononoke', 1997",
+      "translate": "Corte a cabeça de um lobo e ele ainda terá o poder de morder."
     },
     {
       "id": "194",
       "quote": "I think we ought to live happily ever after.",
-      "author": "Howl, 'Howl's Moving Castle', 2004"
+      "author": "Howl, 'Howl's Moving Castle', 2004",
+      "translate": "Acho que devemos viver felizes para sempre."
     },
     {
       "id": "195",
       "quote": "It's funny how each day you wake up and never really know if it will be one that will change your life forever.",
-      "author": "Shawn, 'The Secret World Of Arrietty', 2010"
+      "author": "Shawn, 'The Secret World Of Arrietty', 2010",
+      "translate": "É engraçado como a cada dia você acorda e nunca sabe realmente se será um dia que mudará sua vida para sempre."
     },
     {
       "id": "196",
       "quote": "I’m not afraid to die. I’d do anything to get you humans out of my forest!",
-      "author": "San, 'Princess Mononoke', 1997"
+      "author": "San, 'Princess Mononoke', 1997",
+      "translate": "Eu não tenho medo de morrer. Eu faria qualquer coisa para tirar vocês humanos da minha floresta!"
     },
     {
       "id": "197",
       "quote": "I guess once you start doubting, there’s no end to it.",
-      "author": "Batou, 'Ghost In The Shell', 1995"
+      "author": "Batou, 'Ghost In The Shell', 1995",
+      "translate": "Eu acho que quando você começa a duvidar, não há fim para isso."
     },
     {
       "id": "198",
       "quote": "Life is a wave on the sea. Would you force the sea to grow still to save one wave? To save yourself?",
-      "author": "Haitaka, 'Tales from Earthsea', 2006"
+      "author": "Haitaka, 'Tales from Earthsea', 2006",
+      "translate": "A vida é uma onda no mar. Você forçaria o mar a ficar parado para salvar uma onda? Para se salvar?"
     },
     {
       "id": "199",
       "quote": "Always believe in yourself. Do this and no matter where you are, you will have nothing to fear.",
-      "author": "Baron, 'The Cat Returns', 2002"
+      "author": "Baron, 'The Cat Returns', 2002",
+      "translate": "Sempre acredite em você mesmo. Faça isso e não importa onde você esteja, você não terá nada a temer."
     },
     {
       "id": "200",
       "quote": "I’m going to show you how to kill a god. A god of life and death. The trick is not to fear him.",
-      "author": "Lady Eboshi, 'Princess Mononoke', 1997"
+      "author": "Lady Eboshi, 'Princess Mononoke', 1997",
+      "translate": "Vou mostrar a você como matar um deus. Um deus da vida e da morte. O truque é não temê-lo."
     },
     {
       "id": "201",
       "quote": "If a technological feat is possible, man will do it. Almost as if it’s wired into the core of our being.",
-      "author": "Motoko Kusanagi, 'Ghost In The Shell', 1995"
+      "author": "Motoko Kusanagi, 'Ghost In The Shell', 1995",
+      "translate": "Se um feito tecnológico for possível, o homem o fará. Quase como se estivesse conectado ao âmago do nosso ser."
     },
     {
       "id": "202",
       "quote": "They say that the best blaze burns brightest, when circumstances are at their worst.",
-      "author": "Sophie Hatter, 'Howl's Moving Castle', 2004"
+      "author": "Sophie Hatter, 'Howl's Moving Castle', 2004",
+      "translate": "Eles dizem que a melhor chama é mais brilhante, quando as circunstâncias são piores."
     },
     {
       "id": "203",
       "quote": "No matter how the wind howls, the mountain cannot bow to it.",
-      "author": "mulan"
+      "author": "Mulan",
+      "translate": "Não importa o quanto o vento uive, a montanha não pode se curvar a ele."
     },
     {
       "id": "204",
       "quote": "All we have to decide is what to do with the time that is given us.",
-      "author": "The Lord of the Rings: The Fellowship of the Ring"
+      "author": "The Lord of the Rings: The Fellowship of the Ring",
+      "translate": "Tudo o que temos que decidir é o que fazer com o tempo que nos é dado."
     },
     {
       "id": "205",
       "quote": "We all know the truth: more connects us than separates us. But in times of crisis the wise build bridges, while the foolish build barriers. We must find a way to look after one another, as if we were one single tribe.",
-      "author": "Black Panther"
+      "author": "Black Panther",
+      "translate": "Todos nós sabemos a verdade: mais nos conecta do que nos separa. Mas em tempos de crise, os sábios constroem pontes, enquanto os tolos constroem barreiras. Devemos encontrar uma maneira de cuidar uns dos outros, como se fôssemos uma única tribo."
     }
   ]
 }
