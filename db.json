@@ -1561,30 +1561,34 @@
       "translate": "Todos nós sabemos a verdade: mais nos conecta do que nos separa. Mas em tempos de crise, os sábios constroem pontes, enquanto os tolos constroem barreiras. Devemos encontrar uma maneira de cuidar uns dos outros, como se fôssemos uma única tribo."
     }
   ],
-  "persona": [
+  "groups": [
     {
       "email": "beatriz@email.com",
-      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
       "name": "Beatriz",
-      "UserId": 4
+      "personaId": 1,
+      "userId": 4,
+      "id": 1
     },
     {
       "email": "sthefany@email.com",
-      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
       "name": "Sthéfany",
-      "UserId": 3
+      "personaId": 2,
+      "userId": 3,
+      "id": 2
     },
     {
       "email": "roberto@email.com",
-      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
       "name": "Roberto",
-      "UserId": 2
+      "personaId": 1,
+      "userId": 2,
+      "id": 3
     },
     {
       "email": "ricardo@email.com",
-      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
       "name": "ricardo",
-      "UserId": 1
+      "personaId": 1,
+      "userId": 1,
+      "id": 4
     }
   ],
   "myStores": [
