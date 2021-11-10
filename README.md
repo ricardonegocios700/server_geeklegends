@@ -111,9 +111,9 @@ Exige autenticação.
 /GET /multimedias?type=filmes
 
 Retornará todas as mídias cadastradas cujo campo type sejam idênticos a filmes,
-caso queira usar mais detalhes faça encadeamento de ?, por exemplo com title = "Matrix":
+caso queira usar mais detalhes faça encadeamento com &, por exemplo com title = "Matrix":
 
-/GET /multimedias?type=filmes?title=Matrix
+/GET /multimedias?type=filmes&title=Matrix
 
 Dispensa uso de JSON.
 Exige autenticação.
@@ -231,9 +231,9 @@ Exige autenticação.
 
 Retornará todas as mensages cadastradas cujo campo type seja filmes,
 caso queira encontra com mais detalhes, por exemplo com
-title = "Matrix" faça encadeamento de ?, use:
+title = "Matrix" faça encadeamento com &, use:
 
-/GET /stores?type=filmes?title=Matrix
+/GET /stores?type=filmes&title=Matrix
 
 Dispensa uso de JSON.
 Exige autenticação.
@@ -286,9 +286,9 @@ Exige autenticação.
 
 /GET /stores?type=filmes
 
-Retornará todas as mensages cadastradas cujo campo type sejam idênticos à filmes, caso queira encontra com mais detalhes, por exemplo com title = "Matrix" faça encadeamento de ?, use:
+Retornará todas as mensages cadastradas cujo campo type sejam idênticos à filmes, caso queira encontra com mais detalhes, por exemplo com title = "Matrix" faça encadeamento com &, use:
 
-/GET /stores?type=filmes?title=Matrix
+/GET /stores?type=filmes&title=Matrix
 
 Dispensa uso de JSON.
 Exige autenticação.
