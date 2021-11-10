@@ -91,7 +91,8 @@ Use o formato JSON:
 "title": "Título",
 "type": "tipo",
 "image": "url",
-"description": "string"
+"description": "string",
+"userId": 1
 }
 
 Exige autenticação.
@@ -127,7 +128,8 @@ Use o formato JSON:
 "title": "Título",
 "type": "tipo",
 "image": "url",
-"description": "string"
+"description": "string",
+"userId": 1
 }
 
 Exige autenticação.
@@ -208,7 +210,8 @@ Use o formato JSON:
 {
 "quote": "texto original em inglês",
 "translate": "tradução em português",
-"author": "nome"
+"author": "nome",
+"userId": 1
 }
 
 Exige autenticação.
