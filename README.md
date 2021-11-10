@@ -266,9 +266,11 @@ Exige autenticação além de ser o proprietário.
 
 Use o formato JSON:
 {
-"quote": "texto original em inglês",
-"translate": "tradução em português",
-"author": "nome"
+"name": "nome",
+"url": "url",
+"image": "url",
+"segment": "segmento",
+"userId": 1
 }
 
 Exige autenticação.
