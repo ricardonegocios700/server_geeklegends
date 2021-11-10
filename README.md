@@ -19,8 +19,8 @@ Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do
 Use o JSON com esses campos obrigatórios:
 
 {
-"email": "seu@email.com",
-"password": "123456",
+"email": "seu@email.com", <br/>
+"password": "123456", <br/>
 "name": "Seu Nome"
 }
 
@@ -33,7 +33,7 @@ POST /signin
 
 Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
 {
-"email": "seu@email.com",
+"email": "seu@email.com", <br/>
 "password": "suaSenha",
 }
 
@@ -61,9 +61,9 @@ Envio de dados a serem alterados por JSON,
 inclua os campos que vc criou ou deseja criar:
 
 {
-"email": "seuNovo@email.com",
-"password": "novaSenha",
-"name": "Correção de Nome",
+"email": "seuNovo@email.com", <br/>
+"password": "novaSenha", <br/>
+"name": "Correção de Nome", <br/>
 "cidade": "Osasco"
 }
 
@@ -88,10 +88,10 @@ animes, filmes, games, gibis e séries, mas nada impede que vc inclua outros
 
 Use o formato JSON:
 {
-"title": "Título",
-"type": "tipo",
-"image": "url",
-"description": "string",
+"title": "Título", <br/>
+"type": "tipo", <br/>
+"image": "url", <br/>
+"description": "string", <br/>
 "userId": 1
 }
 
@@ -125,10 +125,10 @@ O nr 1 indica o id da mídia a ser alterado.
 
 Use o formato JSON:
 {
-"title": "Título",
-"type": "tipo",
-"image": "url",
-"description": "string",
+"title": "Título", <br/>
+"type": "tipo", <br/>
+"image": "url", <br/>
+"description": "string", <br/>
 "userId": 1
 }
 
@@ -148,9 +148,9 @@ Exige autenticação além de ser o proprietário.
 
 Use o formato JSON:
 {
-"text": "string",
-"userId": 1,
-"destUserId": 2,
+"text": "string", <br/>
+"userId": 1, <br/>
+"destUserId": 2, <br/>
 "read": false
 }
 
@@ -186,9 +186,9 @@ O nr 1 indica o id da postagem a ser alterado.
 
 Use o formato JSON:
 {
-"text": "string",
-"userId": 1,
-"destUserId": 2,
+"text": "string", <br/>
+"userId": 1, <br/>
+"destUserId": 2, <br/>
 "read": false
 }
 
@@ -208,9 +208,9 @@ Exige autenticação.
 
 Use o formato JSON:
 {
-"quote": "texto original em inglês",
-"translate": "tradução em português",
-"author": "nome",
+"quote": "texto original em inglês", <br/>
+"translate": "tradução em português", <br/>
+"author": "nome", <br/>
 "userId": 1
 }
 
@@ -245,8 +245,8 @@ O nr 1 indica o id da mensage a ser alterado.
 
 Use o formato JSON:
 {
-"quote": "texto original em inglês",
-"translate": "tradução em português",
+"quote": "texto original em inglês", <br/>
+"translate": "tradução em português", <br/>
 "author": "nome"
 }
 
@@ -266,10 +266,10 @@ Exige autenticação além de ser o proprietário.
 
 Use o formato JSON:
 {
-"name": "nome",
-"url": "url",
-"image": "url",
-"segment": "segmento",
+"name": "nome", <br/>
+"url": "url", <br/>
+"image": "url", <br/>
+"segment": "segmento", <br/>
 "userId": 1
 }
 
@@ -302,8 +302,8 @@ O nr 1 indica o id da mensage a ser alterado.
 
 Use o formato JSON:
 {
-"quote": "texto original em inglês",
-"translate": "tradução em português",
+"quote": "texto original em inglês", <br/>
+"translate": "tradução em português", <br/>
 "author": "nome"
 }
 
@@ -325,10 +325,10 @@ Exige autenticação.
 
 Use o formato JSON:
 {
-"name": "nome",
-"url": "url",
-"image": "url",
-"segment": "segmento",
+"name": "nome", <br/>
+"url": "url", <br/>
+"image": "url", <br/>
+"segment": "segmento", <br/>
 "userId": 1
 }
 
@@ -368,10 +368,10 @@ Exige autenticação.
 
 Use o formato JSON:
 {
-"title": "titulo",
-"type": "Animes",
-"image": "url",
-"description": "um texto",
+"title": "titulo", <br/>
+"type": "Animes", <br/>
+"image": "url", <br/>
+"description": "um texto", <br/>
 "userId": 1
 }
 
@@ -411,10 +411,10 @@ Exige autenticação.
 
 Use o formato JSON:
 {
-"title": "titulo",
-"type": "Animes",
-"image": "url",
-"description": "um texto",
+"title": "titulo", <br/>
+"type": "Animes", <br/>
+"image": "url", <br/>
+"description": "um texto", <br/>
 "userId": 1
 }
 
