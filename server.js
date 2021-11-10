@@ -15,6 +15,9 @@ const rules = auth.rewriter({
   stores: 660,
   posts: 660,
   messages: 660,
+  myStores: 660,
+  myMultimedias: 660,
+  talk: 660,
 });
 
 app.use(cors());

@@ -218,7 +218,7 @@ Exige autenticação.
 
 #### Consultar todos MESSAGES
 
-/GET /stores
+/GET /messages
 
 Retornará todos as mensages cadastradas
 
@@ -227,20 +227,20 @@ Exige autenticação.
 
 #### Consulta refinada de MESSAGES
 
-/GET /stores?type=filmes
+/GET /messages?type=filmes
 
 Retornará todas as mensages cadastradas cujo campo type seja filmes,
 caso queira encontra com mais detalhes, por exemplo com
-title = "Matrix" faça encadeamento com &, use:
+author = "Unknown Author" faça encadeamento com &, use:
 
-/GET /stores?type=filmes&title=Matrix
+/GET /messages?type=filmes&author=Unknown Author
 
 Dispensa uso de JSON.
 Exige autenticação.
 
 #### Atualizar um MESSAGES
 
-/PATCH /stores/1
+/PATCH /messages/1
 O nr 1 indica o id da mensage a ser alterado.
 
 Use o formato JSON:
@@ -254,7 +254,7 @@ Exige autenticação além de ser o proprietário.
 
 #### Deletar um MESSAGES
 
-/DELETE /stores/1
+/DELETE /messages/1
 O nr 1 indica o id da mensage a ser deletada.
 
 Dispensa uso de JSON.
@@ -313,6 +313,133 @@ Exige autenticação.
 
 /DELETE /stores/1
 O nr 1 indica o id da mensage a ser deletada.
+
+Dispensa uso de JSON.
+Exige autenticação.
+
+#### Criar uma MYSTORE
+
+// lojas favoritadas
+
+/POST /myStores
+
+Use o formato JSON:
+{
+"name": "nome",
+"url": "url",
+"image": "url",
+"segment": "segmento",
+"userId": 1
+}
+
+PS: mudar o userId para seu usuário
+
+Exige autenticação.
+
+#### Consultar todos MYSTORE
+
+/GET /myStores?userId=1
+
+Retornará todos as minhas lojas cadastradas
+
+Dispensa uso de JSON.
+Exige autenticação.
+
+#### Consulta refinada de MYSTORE
+
+/GET /myStores?userId=1&segment=shopping
+
+Dispensa uso de JSON.
+Exige autenticação.
+
+#### Deletar um MYSTORE
+
+/DELETE /myStores/1
+O nr 1 indica o id da minha store a ser deletada.
+
+Dispensa uso de JSON.
+Exige autenticação.
+
+#### Criar uma MYMULTIMEDIAS
+
+// lojas favoritadas
+
+/POST /myMultimedias
+
+Use o formato JSON:
+{
+"title": "titulo",
+"type": "Animes",
+"image": "url",
+"description": "um texto",
+"userId": 1
+}
+
+PS: mudar o userId para usuário
+
+Exige autenticação.
+
+#### Consultar todos MYMULTIMEDIAS
+
+/GET /myMultimedias?userId=1
+
+Retornará todos as minhas mídias cadastradas
+
+Dispensa uso de JSON.
+Exige autenticação.
+
+#### Consulta refinada de MYMULTIMEDIAS
+
+/GET /myMultimedias?userId=1&type=Animes
+
+Dispensa uso de JSON.
+Exige autenticação.
+
+#### Deletar um MYMULTIMEDIAS
+
+/DELETE /myMultimedias/1
+O nr 1 indica o id mídia a ser deletada.
+
+Dispensa uso de JSON.
+Exige autenticação.
+
+#### Criar uma TALK
+
+// lojas favoritadas
+
+/POST /talk
+
+Use o formato JSON:
+{
+"title": "titulo",
+"type": "Animes",
+"image": "url",
+"description": "um texto",
+"userId": 1
+}
+
+PS: mudar o userId para usuário
+
+Exige autenticação.
+
+#### Consultar todos TALK
+
+Siga os seguintes passos:
+guarde em uma const esse resultado
+/GET /talk?userId=1&destinyId=3
+
+concatene o resultado abaixo na const anterior
+/GET /talk?destinyId=1&userId=3
+
+crie uma function que ordene o resultado pelo id
+
+Dispensa uso de JSON.
+Exige autenticação.
+
+#### Deletar um TALK
+
+/DELETE /myMultimedias/1
+O nr 1 indica o id mídia a ser deletada.
 
 Dispensa uso de JSON.
 Exige autenticação.

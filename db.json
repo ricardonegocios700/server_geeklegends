@@ -1561,5 +1561,116 @@
       "translate": "Todos nós sabemos a verdade: mais nos conecta do que nos separa. Mas em tempos de crise, os sábios constroem pontes, enquanto os tolos constroem barreiras. Devemos encontrar uma maneira de cuidar uns dos outros, como se fôssemos uma única tribo."
     }
   ],
-  "persona": []
+  "persona": [
+    {
+      "email": "beatriz@email.com",
+      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
+      "name": "Beatriz",
+      "UserId": 4
+    },
+    {
+      "email": "sthefany@email.com",
+      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
+      "name": "Sthéfany",
+      "UserId": 3
+    },
+    {
+      "email": "roberto@email.com",
+      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
+      "name": "Roberto",
+      "UserId": 2
+    },
+    {
+      "email": "ricardo@email.com",
+      "password": "$2a$10$Pxke/9JzDRuGcd.iU0hbqefhGyepd8sJSKdQa308wpnE9grVzGF4i",
+      "name": "ricardo",
+      "UserId": 1
+    }
+  ],
+  "myStores": [
+    {
+      "name": "Toy Show",
+      "url": "https://www.toyshow.com.br/",
+      "image": "https://service.smarthint.co/ClientImages/abb35ee0-fd06-4eec-af67-024063ec78ca.png",
+      "segment": "shopping",
+      "useId": 4
+    },
+    {
+      "name": "Nerd Universe",
+      "url": "https://www.nerduniverse.com.br/",
+      "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/078/806/themes/common/logo-1786935022-1581098938-c66991d35d9583404e19459e393e5df81581098939-320-0.png?0",
+      "segment": "shopping",
+      "useId": 1
+    },
+    {
+      "name": "Limited edition",
+      "url": "https://www.limitededition.com.br/",
+      "image": "https://www.limitededition.com.br/arquivos/logo.png?v=637685282890870000",
+      "segment": "shopping",
+      "useId": 2
+    },
+    {
+      "name": "Geek 10",
+      "url": "https://www.geek10.com.br/",
+      "image": "https://images.tcdn.com.br/files/723087/themes/67/img/settings/logo-2.png",
+      "segment": "shopping",
+      "useId": 3
+    }
+  ],
+  "myMultimedias": [
+    {
+      "title": "ONE PEACE",
+      "type": "Animes",
+      "image": "https://kanto.legiaodosherois.com.br/w760-h398-gnw-cfill-q80/wp-content/uploads/2021/04/legiao_EMCh9zLXi3P_.jpg.jpeg",
+      "description": "Luffy tem o desejo de se tornar o próximo Rei dos Piratas e para isso ele deve encontrar um dos tesouros mais procurados do mundo, o One Peace. A tripulação se aventura em explorar a Grand Line para conquistar seus objetivos. O anime foi desenvolvida no mangá escrito e também desenhado por Eiichiro Oda é uma das séries de maior quantidade de episódios já criados além de possuir o título de mangá mais vendido de todos os tempos ultrapassando Naruto e Dragon Ball. O anime seu primeiro mangá produzido em 1997 e o desenho é apresentado nas telas desde 1999.",
+      "userId": 1
+    },
+    {
+      "title": "NARUTO",
+      "type": "Animes",
+      "image": "https://blognerdegeek.com/wp-content/uploads/AAAABYQp33Z3D9uGJK0IZsYfvENQpSz4zoSrjb8v5CCl4UTiFDe7Z_yovhieDFhJtGm2Rh4LoleJfHwHdyRDMtezwqojkDXH.jpg",
+      "description": "Os animes contam histórias incríveis de superação e vontade. São sensações incríveis despertadas em crianças, adolescentes e até nos mais velhos que gostam de animes. Para o anime Naruto, não é diferente. Seu objetivo é se tornar Hokage, ninja líder. O anime é baseado em uma série de mangá que Masashi Kishimoto escreveu e ilustrou. A primeira aparição nas telas de TV foi no Japão entre os anos de 2002 e 2007 e continuou por alguns anos depois. Naruto marcou a vida de muitos que hoje estão na faixa dos 20 anos, mas isso não é regra. É um anime para qualquer faixa etária. Se divirta!",
+      "userId": 2
+    },
+    {
+      "title": "FULLMETAL ALCHEMIST: BROTHERHOOD",
+      "type": "Animes",
+      "image": "https://idris.com.br/dev/wp-content/themes/Idris/timthumb.php?src=https://idris.com.br/dev/wp-content/uploads/2018/03/fantastic-full-metal-alchemist-poster-and-awesome-ideas-of-fullmetal-alchemist-brotherhood-768x1095.jpg&w=821&h=400&zc=1",
+      "description": "Fullmetal Alchemist, virou série na Monthly Shōnen Gangan uma revista mensal japonesa entre 2001 e 2010. É um mangá produzido por Hiromu Arakawa que escreveu e ilustrou. A história se passa em um mundo pós revolução industrial na Europa onde a Alquimia é uma ciência muito avançada para época é onde acontece e é explorado a história desse anime. Sim, Edward Elric e Alphonse Elric estão atrás da pedra filosofal para reverter um problema. a restauração dos seus corpos é o objetivo depois de uma tentativa mal sucedida de trazer a mãe de volta a vida. A segunda série, Brotherhood, que muitos gostam, possui mais episódios. O mangá serviu de inspiração para as séries que se baseou em quase todos os episódios do mangá. Entre meados de 2009 e final de 2010 a Aniplex lançou série em Blu-ray e DVD.",
+      "userId": 3
+    },
+    {
+      "title": "DEATH NOTE",
+      "type": "Animes",
+      "image": "https://conteudo.imguol.com.br/c/entretenimento/0a/2021/10/19/death-note-1634673050596_v2_900x506.jpg.webp",
+      "description": "Uma ótima série de mangá que foi escrita por Tsugumi Ohba e contou com a participação de Takeshi Obata para ilustrar essa impactante história. Muitos gostaram e acompanharam tanto o anime e o mangá que Death Note teve uma adaptação americana pela Netflix em 2017. Light Yagami, é o personagem central, ele é um estudante que descobre o Death Note. A partir daí, ele escreve o nome de más pessoas nesse livro e quanto mentaliza o rosto da pessoa que foi citada no livro, essa pessoa morre. A série ainda conta com L., um detetive particular e Ryuk (o DEUS DA MORTE). A versão de anime produzida por Tetsurō Araki, conta com 37 episódios e foi exibida inicialmente entre 2007 e 2007.",
+      "userId": 4
+    }
+  ],
+  "talk": [
+    {
+      "id": 1,
+      "userId": 1,
+      "destinyId": 2,
+      "message": "Olá, que bom ter te encontrado aqui!"
+    },
+    {
+      "id": 2,
+      "userId": 2,
+      "destinyId": 3,
+      "message": "Olá, que bom ter te encontrado aqui!"
+    },
+    {
+      "id": 3,
+      "userId": 3,
+      "destinyId": 4,
+      "message": "Olá, que bom ter te encontrado aqui!"
+    },
+    {
+      "id": 4,
+      "userId": 4,
+      "destinyId": 1,
+      "message": "Olá, que bom ter te encontrado aqui!"
+    }
+  ]
 }
