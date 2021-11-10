@@ -169,7 +169,7 @@
     {
       "title": "The Big Bang Theory",
       "type": "Séries",
-      "image": "",
+      "image": "https://3.bp.blogspot.com/-q9NS-WatVnc/VyA-MLIxm-I/AAAAAAAACC4/UBkz6pu3vJAZUzCLxXk0o8Oj-ZZz3oXtwCLcB/s1600/The_Big_Bang_Theory.jpg",
       "description": "Vários nerds não colocariam The Big Bang Theory nesta lista, mas que a série é um sucesso e tem personagens que viraram ícone nerds, isso tem. A trama acompanha os amigos cientistas Leonard, Sheldon, Howard e Raj, que fazem muitas referências a elementos da cultura pop e nerd, com muito video game, quadrinhos e cosplays. A série é transmitida no Brasil pela Warner.",
       "id": 21
     },
@@ -802,6 +802,637 @@
       "quote": "Any fool can write code that a computer can understand. Good programmers write code that humans can understand",
       "translate": "Qualquer idiota pode escrever um código que um computador possa entender. Bons programadores escrevem códigos que humanos podem entender",
       "author": "Martin Fowler"
+    },
+    {
+      "id": "75",
+      "quote": "Live long and prosper!",
+      "author": "Spock"
+    },
+
+    {
+      "id": "77",
+      "quote": "Never forget what you are. The rest of the world will not. Wear it like armor, and it can never be used to hurt you.",
+      "author": "Game of Thrones"
+    },
+    {
+      "id": "78",
+      "quote": "Every one of us must do what’s in their power! If we’re going to die anyway, then it’s better to die fighting than to do nothing!",
+      "author": "Sakura Haruno"
+    },
+    {
+      "id": "79",
+      "quote": "A real ninja is one who endures no matter what gets thrown at him … All you do need, is the guts to never give up.",
+      "author": "Jiraiya"
+    },
+    {
+      "id": "80",
+      "quote": "Never underestimate your opponent, no matter how small they may seem.",
+      "author": "Shino Aburame"
+    },
+    {
+      "id": "81",
+      "quote": "A person grows up when he’s able to overcome hardships. Protection is important, but there are some things that a person must learn on his own.",
+      "author": "Jiraiya"
+    },
+    {
+      "id": "82",
+      "quote": "People who continue to put their lives on the line to defend their faith become heroes and continue to exist on in legend.",
+      "author": "Naruto Uzumaki"
+    },
+    {
+      "id": "83",
+      "quote": "When people are protecting something truly precious to them. They truly can become…as strong as they need to be!",
+      "author": "Haku"
+    },
+    {
+      "id": "84",
+      "quote": "If you don’t like your destiny, don’t accept it. Instead have the courage to change it the way you want it to be.",
+      "author": "Naruto Uzumaki"
+    },
+    {
+      "id": "85",
+      "quote": "Never give up without even trying. Do what you can, no matter how small the effect it may have!",
+      "author": "Onoki"
+    },
+    {
+      "id": "86",
+      "quote": "Hard work is worthless for those that don’t believe in themselves.",
+      "author": "Naruto Uzumaki"
+    },
+    {
+      "id": "87",
+      "quote": "Power is not will, it is the phenomenon of physically making things happen.",
+      "author": "Madara Uchiha"
+    },
+    {
+      "id": "88",
+      "quote": "Destiny. Fate. Dreams. These unstoppable ideas are held deep in the heart of man. As long as there are people who seek freedom in this life, these things shall not vanish from the Earth.",
+      "author": "Gold D. Rodger"
+    },
+    {
+      "id": "89",
+      "quote": "Don’t start a fight if you can’t end it.",
+      "author": "Sanji"
+    },
+    {
+      "id": "90",
+      "quote": "Life is like a pencil that will surely run out, but will leave the beautiful writing of life.",
+      "author": "Nami"
+    },
+    {
+      "id": "91",
+      "quote": "Fools who don’t respect the past are likely to repeat it.",
+      "author": "Nico Robin"
+    },
+    {
+      "id": "92",
+      "quote": "We have to live a life of no regrets.",
+      "author": "Portgas D. Ace"
+    },
+    {
+      "id": "93",
+      "quote": "When the world shoves you around, you just gotta stand up and shove back. It’s not like somebody’s gonna save you if you start babbling excuses.",
+      "author": "Roronoa Zoro"
+    },
+    {
+      "id": "94",
+      "quote": "Power isn’t determined by your size, but the size of your heart and dreams!",
+      "author": "Monkey D Luffy"
+    },
+    {
+      "id": "95",
+      "quote": "You need to accept the fact that you’re not the best and have all the will to strive to be better than anyone you face.",
+      "author": "Roronoa Zoro"
+    },
+    {
+      "id": "96",
+      "quote": "No matter how hard or impossible it is, never lose sight of your goal.",
+      "author": "Monkey D Luffy"
+    },
+    {
+      "id": "97",
+      "quote": "It may be hard right now… But you must silence those thoughts! Stop counting only those things that you have lost! What is gone, is gone!",
+      "author": "Jinbei"
+    },
+    {
+      "id": "98",
+      "quote": "The moon does not mourn over the dead. What it does is shine a light on the truth.",
+      "author": "Shinichi Kudo"
+    },
+    {
+      "id": "99",
+      "quote": "By looking at what’s blocking our way, with an open mind, a wall can be turned into a wide-open door.",
+      "author": "Shinichi Kudo"
+    },
+    {
+      "id": "100",
+      "quote": "Courage is a word that gives you the strength to do what’s right.",
+      "author": "Ran Mouri"
+    },
+    {
+      "id": "101",
+      "quote": "A trick is nothing but a puzzle mankind came up with. If you use your head, you can uncover the logical answer.",
+      "author": "Shinichi Kudo"
+    },
+    {
+      "id": "102",
+      "quote": "Give advice and good guidance, then halt if such is of no avail. Do not disgrace yourself for it.",
+      "author": "Takaaki Morofushi"
+    },
+    {
+      "id": "103",
+      "quote": "Justice isn’t something that you can just proclaim. It’s a feeling you should keep near your heart.",
+      "author": "Miwako Sato"
+    },
+    {
+      "id": "104",
+      "quote": "The strong one doesn’t win. The one who wins is strong.",
+      "author": "Shinichi Kudo"
+    },
+    {
+      "id": "105",
+      "quote": "Life is short so it will be appreciated. We live to our fullest due to that.",
+      "author": "Hattori Heiji"
+    },
+    {
+      "id": "106",
+      "quote": "Words are like swords. If you use them the wrong way, they can turn into ugly weapons.",
+      "author": "Shinichi Kudo"
+    },
+    {
+      "id": "107",
+      "quote": "When people make a mistake, it is nice to give them advice, but… if they don’t listen, just leave them alone. Otherwise, you’ll do yourself a disservice by wasting your time and effort.",
+      "author": "Ran Mouri"
+    },
+    {
+      "id": "108",
+      "quote": "I do not fear this new challenge, rather like a true warrior I will rise to meet it.",
+      "author": "Vegeta"
+    },
+    {
+      "id": "109",
+      "quote": "There’s no such thing as fair or unfair in battle. There is only victory or in your case, defeat.",
+      "author": "Vegeta"
+    },
+    {
+      "id": "110",
+      "quote": "Death is simply another stage of our life.",
+      "author": "Grand Elder Guru"
+    },
+    {
+      "id": "111",
+      "quote": "Sometimes, we have to look beyond what we want and do what’s best.",
+      "author": "Piccolo"
+    },
+    {
+      "id": "112",
+      "quote": "You can take control of my mind and my body, but there is one thing a Saiyan always keep… his PRIDE!",
+      "author": "Vegeta"
+    },
+    {
+      "id": "113",
+      "quote": "You’ll laugh at your fears when you find out who you are.",
+      "author": "Piccolo"
+    },
+    {
+      "id": "114",
+      "quote": "Push through the pain, giving up hurts more.",
+      "author": "Vegeta"
+    },
+    {
+      "id": "115",
+      "quote": "Me personally, I like to work and train.",
+      "author": "Goku"
+    },
+    {
+      "id": "116",
+      "quote": "Even the mightiest warriors experience fears. What makes them a true warrior is the courage that they posses to overcome their fears.",
+      "author": "Vegeta"
+    },
+    {
+      "id": "117",
+      "quote": "Power comes in response to a need, not a desire. You have to create that need.",
+      "author": "Goku"
+    },
+    {
+      "id": "118",
+      "quote": "I won’t give up. I’ll never give up again. So I’ll win, no matter what! I’ll survive no matter what.",
+      "author": "Mikasa Ackerman"
+    },
+    {
+      "id": "119",
+      "quote": "People who can’t throw something important away, can never hope to change anything.",
+      "author": "Armin Arlert"
+    },
+    {
+      "id": "120",
+      "quote": "We need to stop living for others. From now on…Let’s live for ourselves!",
+      "author": "Historia Reiss"
+    },
+    {
+      "id": "121",
+      "quote": "Even in moments of the deepest despair… I guess we can still find hope, huh?",
+      "author": "Hange Zoe"
+    },
+    {
+      "id": "122",
+      "quote": "Do you always want to live hiding behind the mask you put up for the sake of others? You’re you, and there’s nothing wrong with that.",
+      "author": "Ymir"
+    },
+    {
+      "id": "123",
+      "quote": "No matter how messed up things get, you can always figure out the best solution.",
+      "author": "Eren Jaeger"
+    },
+    {
+      "id": "124",
+      "quote": "Endure it. Don’t let go.",
+      "author": "Armin Arlert"
+    },
+    {
+      "id": "125",
+      "quote": "If you win you live. If you lose you die. If you don’t fight, you can’t win.",
+      "author": "Eren Jaeger"
+    },
+    {
+      "id": "126",
+      "quote": "Believe in your own power.",
+      "author": "Mikasa Ackerman"
+    },
+    {
+      "id": "127",
+      "quote": "I want to see and understand the world outside. I don’t want to die inside these walls without knowing what’s out there.",
+      "author": "Eren Jaeger"
+    },
+    {
+      "id": "128",
+      "quote": "Helping other people is the best way to make up for your mistakes.",
+      "author": "Kenshin Himura"
+    },
+    {
+      "id": "129",
+      "quote": "If we were normal, we might not be alive today. And that, my friend, is what gives us the edge we need.",
+      "author": "Makoto Shishio"
+    },
+    {
+      "id": "130",
+      "quote": "You can die anytime, but living takes true courage.",
+      "author": "Kenshin Himura"
+    },
+    {
+      "id": "131",
+      "quote": "It is foolish to listen to one who will not listen to you. Do as you wish.",
+      "author": "Seijuro Hiko"
+    },
+    {
+      "id": "132",
+      "quote": "We shouldn’t blame ourselves for bad things that happened to us. Sometimes, no matter what we do, we are victims of the circumstances.",
+      "author": "Kenshin Himura"
+    },
+    {
+      "id": "133",
+      "quote": "A man that can’t hold on to his beliefs can only be pathetic, dead or alive.",
+      "author": "Hajime Saito"
+    },
+    {
+      "id": "134",
+      "quote": "Trivial setbacks like yours and mine are nothing but common occurrences in everyday life!",
+      "author": "Seiya Kanie"
+    },
+    {
+      "id": "135",
+      "quote": "If you wanna make people dream, you’ve gotta start by believing in that dream yourself!",
+      "author": "Seiya Kanie"
+    },
+    {
+      "id": "136",
+      "quote": "Sometimes one must lose the battle in order to win the war.",
+      "author": "Isuzu Sento"
+    },
+    {
+      "id": "137",
+      "quote": "If you wanna wallow in your tears, save it for after you’ve done everything you can.",
+      "author": "Seiya Kanie"
+    },
+    {
+      "id": "138",
+      "quote": "If you don’t believe in anything, it no longer has the power to hurt.",
+      "author": "Eureka, 'Eureka Seven', 2005 - 2012"
+    },
+    {
+      "id": "139",
+      "quote": "Nothing’s perfect, the world’s not perfect, but it’s there for us, trying the best it can. That’s what makes it so damn beautiful.",
+      "author": "Roy Mustang, 'Fullmetal Alchemist', 2003 - 2004"
+    },
+    {
+      "id": "140",
+      "quote": "Don’t beg for it, earn it. Do it, and you’ll be rewarded.",
+      "author": "Renton Thurston, 'Eureka Seven', 2005 - 2012"
+    },
+    {
+      "id": "141",
+      "quote": "If you can truly believe in something, then the power of your belief will make it real.",
+      "author": "Diane Thurston, 'Eureka Seven', 2005 - 2012"
+    },
+    {
+      "id": "142",
+      "quote": "I got my lifting and as long as I can keep lifting, no matter where I am, everything’s okay.",
+      "author": "Renton Thurston, 'Eureka Seven', 2005 - 2012"
+    },
+    {
+      "id": "143",
+      "quote": "You’re not a good for nothing person. I think that being able to try your hardest to be something is a talent by itself.",
+      "author": "Alphonse Elric, 'Fullmetal Alchemist', 2003 - 2004"
+    },
+    {
+      "id": "144",
+      "quote": "You have to figure it out. Stand up and walk. Keep moving forward. You’ve got two good legs. So get up and use them. You’re strong enough to make your own path.",
+      "author": "Edward Elric, 'Fullmetal Alchemist', 2003 - 2004"
+    },
+    {
+      "id": "145",
+      "quote": "Don’t worry about what other people think. Hold your head up high and plunge forward.",
+      "author": "Izuku Midoriya, 'My Hero Academia', 2016 - Present"
+    },
+    {
+      "id": "146",
+      "quote": "Like I always say, can’t find a door? Make your own.",
+      "author": "Edward Elric, 'Fullmetal Alchemist', 2003 - 2004"
+    },
+    {
+      "id": "147",
+      "quote": "My motivation might seem trivial compared to yours, but I can’t lose, either. I have to live up to the hopes of those who supported me.",
+      "author": "Izuku Midoriya, 'My Hero Academia', 2016 - Present"
+    },
+    {
+      "id": "148",
+      "quote": "A person who does nothing but pose is sure to trip up someday.",
+      "author": "Doraemon, 'Doraemon', 1973 - Present"
+    },
+    {
+      "id": "149",
+      "quote": "Sometimes the things that matter the most are right in front of you.",
+      "author": "Yuuki Asuna, 'Show Art Online', 2012 - Present"
+    },
+    {
+      "id": "150",
+      "quote": "A life that lives without doing anything is the same as a slow death.",
+      "author": "Lelouch, 'Code Geass', 2006 - 2012."
+    },
+    {
+      "id": "151",
+      "quote": "Don’t just accept loss or defeat! Accept it after you’re dead. If you lose without dying… it means that luck is on your side.",
+      "author": "Kenpachi Zaraki, 'Bleach', 2004 - 2012"
+    },
+    {
+      "id": "152",
+      "quote": "You shouldn’t be crying over those things that happened in the past. Think of this, why do you think your eyes are placed in front? That is for you to see what’s up ahead.",
+      "author": "Doraemon, 'Doraemon', 1973 - Present"
+    },
+    {
+      "id": "153",
+      "quote": "In their heart, everyone has faith that their victory exists. However, in the face of time and destiny, the act of faith is fruitless and fleeting at best.",
+      "author": "C.C, 'Code Geass', 2006 - 2012"
+    },
+    {
+      "id": "154",
+      "quote": "Life isn’t just doing things for yourself. It’s possible to live in such a way that other people’s happiness, makes you happy too.",
+      "author": "Asuna Yuuki, 'Show Art Online', 2012 - Present"
+    },
+    {
+      "id": "155",
+      "quote": "A life without no changes can’t be called life. You can only call it experience.",
+      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012"
+    },
+    {
+      "id": "156",
+      "quote": "It’s easier to crush a dream than realize one. Forming a bond is infinitely more difficult than breaking one.",
+      "author": "Gin Ichimaru, 'Bleach', 2004 - 2012"
+    },
+    {
+      "id": "157",
+      "quote": "You can't expect to win every single battle, but love's worth fighting for",
+      "author": "Brock, 'Pokemon', 1997 - Present"
+    },
+    {
+      "id": "158",
+      "quote": "When people constantly show their affection for you, you start taking it for granted. If you don’t realize how much they care for you until they’re gone, you’ll only be left with regret and remorse.",
+      "author": "Orihime Inoue, 'Bleach', 2004 - 2012"
+    },
+    {
+      "id": "159",
+      "quote": "Whether here or in the real world, you can cry when it hurts. There’s no rule that you can’t show feelings just because it’s a game.",
+      "author": "Kirito, 'Show Art Online', 2012 - Present"
+    },
+    {
+      "id": "160",
+      "quote": "Before creation there must be destruction. If my soul stands in the way, then I’ll toss it aside. Yes, I have no choice but to move forward.",
+      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012"
+    },
+    {
+      "id": "161",
+      "quote": "Even if no one believes in you, stick out your best and scream your defiance!",
+      "author": "Rukia Kuchiki, 'Bleach', 2004 - 2012"
+    },
+    {
+      "id": "162",
+      "quote": "A Caterpie may change into a Butterfree, but the heart that beats inside remains the same.",
+      "author": "Brock, 'Pokemon', 1997 - Present"
+    },
+    {
+      "id": "163",
+      "quote": "People are all evil. In order to falsely believe yourself to be just, you must inevitably falsely believe that someone else is more evil than you.",
+      "author": "Orihime Inoue, 'Bleach', 2004 - 2012"
+    },
+    {
+      "id": "164",
+      "quote": "God would never put us through all this suffering if he didn’t think we could bear it.",
+      "author": "Yuuki Konno, 'Show Art Online', 2012 - Present"
+    },
+    {
+      "id": "165",
+      "quote": "Why do people lie? It isn’t only because they struggle against each other, it’s also because there is something that they’re seeking.",
+      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012"
+    },
+    {
+      "id": "170",
+      "quote": "Become strong not just for your own sake, but for your friends.",
+      "author": "Ichigo Kurosaki, 'Bleach', 2004 - 2012"
+    },
+    {
+      "id": "171",
+      "quote": "You’ll stumble many times in the future, but when you do, each time you’ll have more strength to bounce back.",
+      "author": "Nobita, 'Doraemon', 1973 - Present"
+    },
+    {
+      "id": "172",
+      "quote": "I see now that one’s birth is irrelevant. It’s what you do that determines who you are.",
+      "author": "Mewtwo, 'Pokemon', 1997 - Present"
+    },
+    {
+      "id": "173",
+      "quote": "I thought that the closer the real and virtual world got, the better the future would be. But the more the boundary between them blurs, the more it starts to trick people.",
+      "author": "Kirito, 'Show Art Online', 2012 - Present"
+    },
+    {
+      "id": "174",
+      "quote": "If happiness had a form, what would it look like? It might be something like glass, because one doesn’t notice it normally. However, it is actually there … It will state it’s presence and existence more eloquently than any other thing in this world.",
+      "author": "Lelouch Lamperouge, 'Code Geass', 2006 - 2012"
+    },
+    {
+      "id": "175",
+      "quote": "That’s just the way it is. Change is inevitable. Instead of resisting it, you’re better served simply going with the flow.",
+      "author": "Shunsui Kyouraku, 'Bleach', 2004 - 2012"
+    },
+    {
+      "id": "176",
+      "quote": "The value of a human being is within himself. Even though your face is very ugly, you do not need to be ashamed!",
+      "author": "Nobita, 'Doraemon', 1973 - Present"
+    },
+    {
+      "id": "177",
+      "quote": "If you’re brave and courageous and never quit you can come out a winner, just like me.",
+      "author": "Brock, 'Pokemon', 1997 - Present"
+    },
+    {
+      "id": "178",
+      "quote": "All things change in a dynamic environment. Your effort to remain what you are is what limits you.",
+      "author": "Puppet Master, 'Ghost In The Shell', 1995"
+    },
+    {
+      "id": "179",
+      "quote": "I think it’s better to leave with decorum and great dignity.",
+      "author": "Jiji, 'Kiki’s Delivery Service', 1989"
+    },
+    {
+      "id": "180",
+      "quote": "You cannot alter your fate. However, you can rise to meet it.",
+      "author": "Hii-Sama, 'Princess Mononoke', 1997"
+    },
+    {
+      "id": "181",
+      "quote": "You should never judge others by their looks.",
+      "author": "Lisa, 'Ponyo', 2008"
+    },
+    {
+      "id": "182",
+      "quote": "You have to accept life as it is. Acceptance is the key for surviving the worst situations.",
+      "author": "Takashi, 'My Neighbors the Yamadas', 1999"
+    },
+    {
+      "id": "183",
+      "quote": "We each need to find our own inspiration, Kiki. Sometimes it’s not easy.",
+      "author": "Ursula, 'Kiki’s Delivery Service', 1989"
+    },
+    {
+      "id": "184",
+      "quote": "Inspiration unlocks the future.",
+      "author": "Caproni, 'The Wind Rises', 2013"
+    },
+    {
+      "id": "185",
+      "quote": "You're only five, but you're very smart. Sometimes we take a leap. Be brave.",
+      "author": "Lisa, 'Ponyo', 2008"
+    },
+    {
+      "id": "186",
+      "quote": "Sometimes you have to fight for the things that are worth fighting for.",
+      "author": "Arrietty, 'The Secret World Of Arrietty', 2010"
+    },
+    {
+      "id": "187",
+      "quote": "Just follow your heart and keep smiling.",
+      "author": "Kokiri, 'Kiki’s Delivery Service', 1989"
+    },
+    {
+      "id": "188",
+      "quote": "Life is suffering. It is hard. The world is cursed. But still you find reasons to keep living.",
+      "author": "Lady Eboshi, 'Princess Mononoke', 1997"
+    },
+    {
+      "id": "189",
+      "quote": "An overweight spirit needs no diet! Go forward, superhero, to anywhere you please!",
+      "author": "Kosaku Tokita, 'Paprika', 2006"
+    },
+    {
+      "id": "190",
+      "quote": "You must face it, Cob. Everyone fears their own mortality.",
+      "author": "Prince Arren, 'Tales from Earthsea', 2006"
+    },
+    {
+      "id": "191",
+      "quote": "Everybody, try laughing. Then whatever scares you will go away!",
+      "author": "Tatsuo Kusakabe, 'My Neighbor Totoro', 1988"
+    },
+    {
+      "id": "192",
+      "quote": "It’s not really important what color your dress is. What matters is the heart inside.",
+      "author": "Kokiri, 'Kiki’s Delivery Service', 1989"
+    },
+    {
+      "id": "193",
+      "quote": "Cut off a wolf’s head and it still has the power to bite.",
+      "author": "Lady Eboshi, 'Princess Mononoke', 1997"
+    },
+    {
+      "id": "194",
+      "quote": "I think we ought to live happily ever after.",
+      "author": "Howl, 'Howl's Moving Castle', 2004"
+    },
+    {
+      "id": "195",
+      "quote": "It's funny how each day you wake up and never really know if it will be one that will change your life forever.",
+      "author": "Shawn, 'The Secret World Of Arrietty', 2010"
+    },
+    {
+      "id": "196",
+      "quote": "I’m not afraid to die. I’d do anything to get you humans out of my forest!",
+      "author": "San, 'Princess Mononoke', 1997"
+    },
+    {
+      "id": "197",
+      "quote": "I guess once you start doubting, there’s no end to it.",
+      "author": "Batou, 'Ghost In The Shell', 1995"
+    },
+    {
+      "id": "198",
+      "quote": "Life is a wave on the sea. Would you force the sea to grow still to save one wave? To save yourself?",
+      "author": "Haitaka, 'Tales from Earthsea', 2006"
+    },
+    {
+      "id": "199",
+      "quote": "Always believe in yourself. Do this and no matter where you are, you will have nothing to fear.",
+      "author": "Baron, 'The Cat Returns', 2002"
+    },
+    {
+      "id": "200",
+      "quote": "I’m going to show you how to kill a god. A god of life and death. The trick is not to fear him.",
+      "author": "Lady Eboshi, 'Princess Mononoke', 1997"
+    },
+    {
+      "id": "201",
+      "quote": "If a technological feat is possible, man will do it. Almost as if it’s wired into the core of our being.",
+      "author": "Motoko Kusanagi, 'Ghost In The Shell', 1995"
+    },
+    {
+      "id": "202",
+      "quote": "They say that the best blaze burns brightest, when circumstances are at their worst.",
+      "author": "Sophie Hatter, 'Howl's Moving Castle', 2004"
+    },
+    {
+      "id": "203",
+      "quote": "No matter how the wind howls, the mountain cannot bow to it.",
+      "author": "mulan"
+    },
+    {
+      "id": "204",
+      "quote": "All we have to decide is what to do with the time that is given us.",
+      "author": "The Lord of the Rings: The Fellowship of the Ring"
+    },
+    {
+      "id": "205",
+      "quote": "We all know the truth: more connects us than separates us. But in times of crisis the wise build bridges, while the foolish build barriers. We must find a way to look after one another, as if we were one single tribe.",
+      "author": "Black Panther"
     }
   ]
 }
