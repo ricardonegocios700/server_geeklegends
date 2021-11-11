@@ -342,7 +342,7 @@ Use o formato JSON:
 
 > > > > > Deletar um LOJAS <<<<<
 
-     DELETE /myStores/1
+     DELETE /stores/1
 
 O nr 1 indica o id da mensage a ser deletada.
 
