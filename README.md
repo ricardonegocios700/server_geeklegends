@@ -204,7 +204,7 @@ Exige autenticação.
 
 #### Criar uma MESSAGE
 
-/POST /stores
+/POST /messages
 
 Use o formato JSON:
 {
@@ -411,14 +411,13 @@ Exige autenticação.
 
 Use o formato JSON:
 {
-"title": "titulo", <br/>
-"type": "Animes", <br/>
-"image": "url", <br/>
-"description": "um texto", <br/>
-"userId": 1
+"userId": 1, <br/>
+"destinyId": 2, <br/>
+"message": "sua mensagem"
 }
 
-PS: mudar o userId para usuário
+PS 1: userId é o usuário que criou
+PS 2: destinyId é o usuário que receberá a mensagem
 
 Exige autenticação.
 
