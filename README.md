@@ -1,444 +1,415 @@
-# json-server-base
+## Endpoints disponiveis
 
-Esse é o repositório com a base de JSON-Server + JSON-Server-Auth já configurada, feita para ser usada no desenvolvimento na atividade Capstones.
+como base da Url para as requisições temos :
 
-## ENDPOINTS
+https://geeklegends.herokuapp.com/
 
-### USUÁRIOS
+# Rotas que não precisam de autenticação
 
-#### Cadastrar/adicionar
+> > > Cadastro < < <
 
-Assim como a documentação do JSON-Server-Auth traz (https://www.npmjs.com/package/json-server-auth), existem 3 endpoints que podem ser utilizados para cadastro e 2 endpoints que podem ser usados para login.
+Para cadastrar usuario use :
 
-POST /register <br/>
-POST /signup <br/>
-POST /users
+    	POST /register
 
-Qualquer um desses 3 endpoints irá cadastrar o usuário na lista de "Users", sendo que os campos obrigatórios são os de email e password.
-Você pode ficar a vontade para adicionar qualquer outra propriedade no corpo do cadastro dos usuários.
-Use o JSON com esses campos obrigatórios:
+    Seguindo o seguinte formato de requisição :
+    	{
+    		"email": "olivier@mail.com",
+    		"password": "bestPassw0rd",
+    		"name" : "oliver",
+    		"aboutMe" : "Senhor de idade mas com disposição de uma criança".
+    		"preferences": "games , series e hq's"
+    	}
 
-{
-"email": "seu@email.com", <br/>
-"password": "123456", <br/>
-"name": "Seu Nome"
-}
+     campos obrigatórios são email e password.
 
-Retorna o token de autenticação, caso queira encaminhar o usuário direto para o sistema.
+> caso o retorno positivo :
 
-#### Login
+POST /register - FORMATO DA RESPOSTA - STATUS 201
 
-POST /login
-POST /signin
+    {
+    	"accessToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im9saXZpZXJAbWFpbC5jb20iLCJpYXQiOjE2MzUxOTk2MjcsImV4cCI6MTYzNTIwMzIyNywic3ViIjoiMyJ9.tgkGl1fNgFMocVAakn_i21f1j0iTsoQ5jjdoSjW-v-Q",
+    	"user": {
+    		"email": "olivier@mail.com",
+    		"password": "asidjweijnwij2infwij329n",
+    		"name" : "oliver",
+    		"aboutMe" : "Senhor de idade mas com disposição de uma criança".
+    		"preferences": "games , series e hq's" ,
+    		"id": 3
+    	}
+    }
 
-Qualquer um desses 2 endpoints pode ser usado para realizar login com um dos usuários cadastrados na lista de "Users"
-{
-"email": "seu@email.com", <br/>
-"password": "suaSenha",
-}
+> caso o retorno seja negativo:
 
-#### Consulta usuários
+possiveis erros
 
-GET /users
-Lista todos usuários na base de dados
+POST /register - FORMATO DA RESPOSTA - STATUS 400
 
-Não exige envio de dados por JSON.
-Exige autenticação.
+"Email already exists"
 
-Você pode refinar sua consulta usando:
+POST /register - FORMATO DA RESPOSTA - STATUS 400
 
-GET /users?name="nomeCompleto"
-ou
-GET /user?email="seu@email.com"
+"Email and password are required"
 
-#### Atualizando usuário
+> > > Login do usuário < < <
 
-PATCH /users/1
+Para logar usuario use :
 
-Altera dados de um usuário, no exemplo serão alterados dados do usuário com id 1 apenas pelo usuário id.
-Exige autenticação além de ser o proprietário.
-Envio de dados a serem alterados por JSON,
-inclua os campos que vc criou ou deseja criar:
+    	POST /login
 
-{
-"email": "seuNovo@email.com", <br/>
-"password": "novaSenha", <br/>
-"name": "Correção de Nome", <br/>
-"cidade": "Osasco"
-}
+    Seguindo o seguinte modelo de requisição :
+    	{
+    		"email": "olivier@mail.com",
+    		"password": "bestPassw0rd",
 
-#### Remoção de usuário
+    	}
 
-DELETE /users/1
+## Rotas que precisam de autenticação
 
-Não exige envio de dados por JSON.
-Exclui um usuário, no exemplo será deletado o usuário com id 1.
-Exige autenticação além de ser o proprietário.
+Rotas que necessitam de autorização deve ser informado no cabeçalho da requisição o campo "Authorization", dessa forma:
 
-#### PERSON SÃO USERS
+    Authorization: Bearer {token}
 
-Aplique as atribuições necessárias a person conforme as existentes em USERS
+> > > USER < < <
 
-#### Criar uma MÍDIA
+Para listar todos os usuarios da plataforma use:
 
-usado para exibir item separados inicialmente como:
-animes, filmes, games, gibis e séries, mas nada impede que vc inclua outros
+      GET /users
 
-/POST /multimedias
+> > > USER Busca< < <
 
-Use o formato JSON:
-{
-"title": "Título", <br/>
-"type": "tipo", <br/>
-"image": "url", <br/>
-"description": "string", <br/>
-"userId": 1
-}
+Para filtrar a busca por usuarios da plataforma use:
 
-Exige autenticação.
+      GET /users?name="nomeCompleto"
+      GET /users?email="seu@email.com"
+      GET /users?id="id do usuario"
 
-#### Consultar todos MULTIMEDIAS
 
-/GET /multimedias
+> > > USER ATT DADOS< < <
 
-Retornará todos as mídias cadastradas
+Para atualizar dados do user use:
 
-Dispensa uso de JSON.
-Exige autenticação.
+      PATCH /users/id
 
-#### Consulta refinada de MULTIMEDIAS
+      Use JSON para mostrar os dados que serão adicionados ou modificados, exemplo
+      {
+      "name": "modificação",
+      "cidade": "new info"
+      }
 
-/GET /multimedias?type=filmes
+a onde o id é o numero do usuario proprietário que fará as modificações dos dados
 
-Retornará todas as mídias cadastradas cujo campo type sejam idênticos a filmes,
-caso queira usar mais detalhes faça encadeamento com &, por exemplo com title = "Matrix":
+> > > MEDIA < < <
 
-/GET /multimedias?type=filmes&title=Matrix
+Para listar todos os arquivos de multimidia da plataforma use:
 
-Dispensa uso de JSON.
-Exige autenticação.
+      GET /multimedias
 
-#### Atualizar um MULTIMEDIAS
+> > > MEDIA FILTRAR < < <
 
-/PATCH /multimedias/1
-O nr 1 indica o id da mídia a ser alterado.
+Para listar os arquivos de multimidia da plataforma por type use:
 
-Use o formato JSON:
-{
-"title": "Título", <br/>
-"type": "tipo", <br/>
-"image": "url", <br/>
-"description": "string", <br/>
-"userId": 1
-}
+      GET /multimedias?type=Animes
 
-Exige autenticação.
+      Types encontrados na API : Animes , Filmes , Gibis , Séries, Games.
 
-#### Deletar um MULTIMEDIAS
+> > > MEDIA ATT DADOS< < <
 
-/DELETE /multimedias/1
-O nr 1 indica o id da mídia a ser deletada.
+Para atualizar dados do user use:
 
-Dispensa uso de JSON.
-Exige autenticação além de ser o proprietário.
+      PATCH /multimedias/id
 
-#### Criar uma POSTAGEM
+      Use JSON para mostrar os dados que serão adicionados ou modificados, exemplo
+      {
+      "like": "modificação"
+      "userId": id do usuario logado
+      }
 
-/POST /posts
+a onde o id é o numero do usuario proprietário que fará as modificações dos dados. Like e dislike recebe dados numericos
 
-Use o formato JSON:
-{
-"text": "string", <br/>
-"userId": 1, <br/>
-"destUserId": 2, <br/>
-"read": false
-}
+> > > MY MEDIA < < <
 
-Exige autenticação.
+Para listar todos os arquivos de multimidia da plataforma use:
 
-#### Consultar todos POSTS
+      GET /myMultimedias?userId=id
 
-/GET /posts
 
-Retornará todos as postagems cadastradas
+onde o id é o id do usuario logado
 
-Dispensa uso de JSON.
-Exige autenticação.
+> > > MY MEDIA FILTRAR < < <
 
-#### Consulta refinada de POSTS
+Para listar os arquivos de multimidia da plataforma por type use:
 
-/GET /posts?destUserId=2
-Retornará todas as postagems cadastradas cujo usuário destino seja 2.
+      GET /myMultimedias?userId=id&type=Animes
 
-/GET /posts?destUserId=2?read=false
-Retornará todas as postagems cadastradas cujo usuário destino seja 2 e não foram lidas ainda.
+      Types encontrados na API : Animes , Filmes , Gibis , Séries, Games.
 
-/GET /posts?userId=3?read=false
-Retornará todas as postagems cadastradas cujo usuário que enviou seja 3 e não foram lidas ainda.
+onde o id é o id do usuário logado.
 
-Dispensa uso de JSON.
-Exige autenticação.
+> > > MY MEDIA ADD< < <
 
-#### Atualizar um POSTS
+Para add arquivos de multimidia use:
 
-/PATCH /posts/1
-O nr 1 indica o id da postagem a ser alterado.
+      POST /myMultimedias
 
-Use o formato JSON:
-{
-"text": "string", <br/>
-"userId": 1, <br/>
-"destUserId": 2, <br/>
-"read": false
-}
+    Com o seguinte exemplo de request
 
-Exige autenticação.
+    {
+        "title": "name",
+        "type": "type",
+        "like": 0,
+        "image": "image",
+        "description": "text",
+        "userId": id
+      }
 
-#### Deletar um POSTS
 
-/DELETE /posts/1
-O nr 1 indica o id da postagem a ser deletada.
+onde o id é o id do usuario logado
 
-Dispensa uso de JSON.
-Exige autenticação.
+> > > MY MEDIA DELETE< < <
 
-#### Criar uma MESSAGE
+Para deletar os arquivos de multimidia use:
 
-/POST /messages
+      DELETE /myMultimedias/id
 
-Use o formato JSON:
-{
-"quote": "texto original em inglês", <br/>
-"translate": "tradução em português", <br/>
-"author": "nome", <br/>
-"userId": 1
-}
 
-Exige autenticação.
+onde o id é o id correspondente ao numero de identificação na lista.
 
-#### Consultar todos MESSAGES
+> > > GROUP < < <
 
-/GET /messages
+Para listar users adicionados aos amigos use:
 
-Retornará todos as mensages cadastradas
+      GET /group?userId=id
 
-Dispensa uso de JSON.
-Exige autenticação.
 
-#### Consulta refinada de MESSAGES
+onde o id é o id do usuario logado
 
-/GET /messages?type=filmes
+> > > GROUP BUSCA < < <
 
-Retornará todas as mensages cadastradas cujo campo type seja filmes,
-caso queira encontra com mais detalhes, por exemplo com
-author = "Unknown Author" faça encadeamento com &, use:
+Para buscar user adicionado use:
 
-/GET /messages?type=filmes&author=Unknown Author
+      GET /myMultimedias?userId=id&name=nameUser
 
-Dispensa uso de JSON.
-Exige autenticação.
+      nameUser = a nome do usuário
 
-#### Atualizar um MESSAGES
+> > > GROUP ADD< < <
 
-/PATCH /messages/1
-O nr 1 indica o id da mensage a ser alterado.
+Para add de multimidia use:
 
-Use o formato JSON:
-{
-"quote": "texto original em inglês", <br/>
-"translate": "tradução em português", <br/>
-"author": "nome"
-}
+      POST /group
 
-Exige autenticação além de ser o proprietário.
+    Com o seguinte exemplo de request
 
-#### Deletar um MESSAGES
+    {
+    		"email": "olivier@email.com",
+    		"name" : "Oliver",
+    		"preferences": "games , series e hq's",
+    		"personaId": <id do usuario amigo>
+    		"userId": <id do usuario logado>
+    	}
 
-/DELETE /messages/1
-O nr 1 indica o id da mensage a ser deletada.
 
-Dispensa uso de JSON.
-Exige autenticação além de ser o proprietário.
+> > > GROUP DELETE< < <
 
-#### Criar uma LOJA
+Para deletar users da list use:
 
-/POST /stores
+      DELETE /myMultimedias/id
 
-Use o formato JSON:
-{
-"name": "nome", <br/>
-"url": "url", <br/>
-"image": "url", <br/>
-"segment": "segmento", <br/>
-"userId": 1
-}
 
-Exige autenticação.
+onde o id é o id correspondente ao numero de identificação na lista.
 
-#### Consultar todos LOJAS
+> > > TALK < < <
 
-/GET /stores
+Para listar conversas dos amigos use:
 
-Retornará todos as mensages cadastradas
+      GET /talks?userId=id
 
-Dispensa uso de JSON.
-Exige autenticação.
 
-#### Consulta refinada de LOJAS
+onde o id é o id do usuario logado
 
-/GET /stores?type=filmes
+> > > TALK BUSCA < < <
 
-Retornará todas as mensages cadastradas cujo campo type sejam idênticos à filmes, caso queira encontra com mais detalhes, por exemplo com title = "Matrix" faça encadeamento com &, use:
+Para buscar talk relaciona adicionado use:
 
-/GET /stores?type=filmes&title=Matrix
+      GET /talks?userId=id&name=nameUser
 
-Dispensa uso de JSON.
-Exige autenticação.
 
-#### Atualizar um LOJAS
+nameUser = a nome do usuário
 
-/PATCH /stores/1
-O nr 1 indica o id da mensage a ser alterado.
+> > > TALK ADD< < <
 
-Use o formato JSON:
-{
-"quote": "texto original em inglês", <br/>
-"translate": "tradução em português", <br/>
-"author": "nome"
-}
+Para add de multimidia use:
 
-Exige autenticação.
+      POST /group
 
-#### Deletar um LOJAS
+    Com o seguinte exemplo de request
 
-/DELETE /stores/1
-O nr 1 indica o id da mensage a ser deletada.
+    {
+    		"email": "olivier@email.com",
+    		"name" : "Oliver",
+    		"preferences": "games , series e hq's",
+    		"personaId": <id do usuario amigo>
+    		"userId": <id do usuario logado>
+    	}
 
-Dispensa uso de JSON.
-Exige autenticação.
 
-#### Criar uma MYSTORE
+> > > TALK DELETE< < <
+
+Para deletar users da list use:
+
+      DELETE /talks/id
+
+
+onde o id é o id correspondente ao numero de identificação na lista.
+
+> > > > > > Criar uma TALK <<<<<
 
 // lojas favoritadas
 
-/POST /myStores
+POST /talk
+
+Use o formato JSON: { "title": "titulo",
+"type": "Animes",
+"image": "url",
+"description": "um texto",
+"userId": 1 }
+
+PS: mudar o userId para usuário
+
+Exige autenticação.
+Consultar todos TALK
+
+Siga os seguintes passos: guarde em uma const esse resultado
+GET /talk?userId=1&destinyId=3
+
+concatene o resultado abaixo na const anterior /
+GET /talk?destinyId=1&userId=3
+
+crie uma function que ordene o resultado pelo id
+
+Dispensa uso de JSON. Exige autenticação.
+
+Deletar um TALK
+
+DELETE /myMultimedias/1
+
+O nr 1 indica o id mídia a ser deletada.
+
+Dispensa uso de JSON. Exige autenticação.
+
+> > > X FILE ----> POSTS < < <
+
+Para listar todos os arquivos de text use:
+
+      GET /posts
+
+> > > POST FILTRAR < < <
+
+Para encontrar arquivo por title use:
+
+      GET /posts?title="nome do title"
+
+> > > POST ATT DADOS< < < ????
+
+Para atualizar dados do post use:
+
+      PATCH /posts/id
+
+      Use JSON para mostrar os dados que serão adicionados ou modificados, exemplo
+      {
+      "title": "modificação"
+      "userId": id do usuario logado
+      }
+
+a onde o id é o numero do usuario proprietário que fará as modificações dos dados. Like e dislike recebe dados numericos
+
+> > > POST DELETE< < <
+
+Para deletar post da list use:
+
+      DELETE /post/id
+
+
+onde o id é o id correspondente ao numero de identificação na lista.
+
+> > > > > Consultar todos LOJAS <<<<<
+
+GET /stores
+
+Retornará todos as mensages cadastradas
+
+Dispensa uso de JSON.
+
+> > > > > Consulta refinada de LOJAS <<<<<<<<
+
+GET /stores?type=filmes
+
+Retornará todas as mensages cadastradas cujo campo type sejam idênticos à filmes, caso queira encontra com mais detalhes, por exemplo com title = "Matrix" faça encadeamento com &, use:
+
+GET /stores?type=filmes&title=Matrix
+
+Dispensa uso de JSON.
+
+> > > > > Atualizar um LOJAS <<<<
+
+    PATCH /stores/1
+
+O nr 1 indica o id da mensage a ser alterado.
+
+Use o formato JSON:
+
+      { "quote": "texto original em inglês",
+        "translate": "tradução em português",
+        "author": "nome",
+        "like": 1,
+        "dislike: 1
+      }
+
+> > > > > Deletar um LOJAS <<<<<
+
+     DELETE /stores/1
+
+
+O nr 1 indica o id da mensage a ser deletada.
+
+Dispensa uso de JSON
+
+> > > > > Criar uma MYSTORE <<<<<
+
+lojas favoritadas
+
+    POST /myStores
 
 Use o formato JSON:
 {
-"name": "nome", <br/>
-"url": "url", <br/>
-"image": "url", <br/>
-"segment": "segmento", <br/>
+"name": "nome",
+"url": "url",
+"image": "url",
+"segment": "segmento",
 "userId": 1
 }
 
 PS: mudar o userId para seu usuário
 
-Exige autenticação.
+> > > > Consultar todos MYSTORE <<<<<
 
-#### Consultar todos MYSTORE
-
-/GET /myStores?userId=1
+    GET /myStores?userId=1
 
 Retornará todos as minhas lojas cadastradas
 
 Dispensa uso de JSON.
-Exige autenticação.
 
-#### Consulta refinada de MYSTORE
+> > > > Consulta refinada de MYSTORE <<<<<
 
-/GET /myStores?userId=1&segment=shopping
+     GET /myStores?userId=1&segment=shopping
 
-Dispensa uso de JSON.
-Exige autenticação.
+Dispensa uso de JSON
 
-#### Deletar um MYSTORE
+> > > > > > > Deletar um MYSTORE <<<<<<<<
 
-/DELETE /myStores/1
+     DELETE /myStores/1
+
+
 O nr 1 indica o id da minha store a ser deletada.
 
 Dispensa uso de JSON.
-Exige autenticação.
-
-#### Criar uma MYMULTIMEDIAS
-
-// lojas favoritadas
-
-/POST /myMultimedias
-
-Use o formato JSON:
-{
-"title": "titulo", <br/>
-"type": "Animes", <br/>
-"image": "url", <br/>
-"description": "um texto", <br/>
-"userId": 1
-}
-
-PS: mudar o userId para usuário
-
-Exige autenticação.
-
-#### Consultar todos MYMULTIMEDIAS
-
-/GET /myMultimedias?userId=1
-
-Retornará todos as minhas mídias cadastradas
-
-Dispensa uso de JSON.
-Exige autenticação.
-
-#### Consulta refinada de MYMULTIMEDIAS
-
-/GET /myMultimedias?userId=1&type=Animes
-
-Dispensa uso de JSON.
-Exige autenticação.
-
-#### Deletar um MYMULTIMEDIAS
-
-/DELETE /myMultimedias/1
-O nr 1 indica o id mídia a ser deletada.
-
-Dispensa uso de JSON.
-Exige autenticação.
-
-#### Criar uma TALK
-
-// lojas favoritadas
-
-/POST /talk
-
-Use o formato JSON:
-{
-"userId": 1, <br/>
-"destinyId": 2, <br/>
-"message": "sua mensagem"
-}
-
-PS 1: userId é o usuário que criou
-PS 2: destinyId é o usuário que receberá a mensagem
-
-Exige autenticação.
-
-#### Consultar todos TALK
-
-Siga os seguintes passos:
-guarde em uma const esse resultado
-/GET /talk?userId=1&destinyId=3
-
-concatene o resultado abaixo na const anterior
-/GET /talk?destinyId=1&userId=3
-
-crie uma function que ordene o resultado pelo id
-
-Dispensa uso de JSON.
-Exige autenticação.
-
-#### Deletar um TALK
-
-/DELETE /myMultimedias/1
-O nr 1 indica o id mídia a ser deletada.
-
-Dispensa uso de JSON.
-Exige autenticação.
