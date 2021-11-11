@@ -84,7 +84,6 @@ Para filtrar a busca por usuarios da plataforma use:
       GET /users?email="seu@email.com"
       GET /users?id="id do usuario"
 
-
 > > > USER ATT DADOS< < <
 
 Para atualizar dados do user use:
@@ -121,7 +120,7 @@ Para atualizar dados do user use:
 
       Use JSON para mostrar os dados que serão adicionados ou modificados, exemplo
       {
-      "like": "modificação"
+      "like": 18
       "userId": id do usuario logado
       }
 
@@ -132,7 +131,6 @@ a onde o id é o numero do usuario proprietário que fará as modificações dos
 Para listar todos os arquivos de multimidia da plataforma use:
 
       GET /myMultimedias?userId=id
-
 
 onde o id é o id do usuario logado
 
@@ -163,7 +161,6 @@ Para add arquivos de multimidia use:
         "userId": id
       }
 
-
 onde o id é o id do usuario logado
 
 > > > MY MEDIA DELETE< < <
@@ -172,15 +169,13 @@ Para deletar os arquivos de multimidia use:
 
       DELETE /myMultimedias/id
 
-
 onde o id é o id correspondente ao numero de identificação na lista.
 
 > > > GROUP < < <
 
 Para listar users adicionados aos amigos use:
 
-      GET /group?userId=id
-
+      GET /groups?userId=id
 
 onde o id é o id do usuario logado
 
@@ -196,7 +191,7 @@ Para buscar user adicionado use:
 
 Para add de multimidia use:
 
-      POST /group
+      POST /groups
 
     Com o seguinte exemplo de request
 
@@ -208,13 +203,11 @@ Para add de multimidia use:
     		"userId": <id do usuario logado>
     	}
 
-
 > > > GROUP DELETE< < <
 
 Para deletar users da list use:
 
       DELETE /myMultimedias/id
-
 
 onde o id é o id correspondente ao numero de identificação na lista.
 
@@ -224,7 +217,6 @@ Para listar conversas dos amigos use:
 
       GET /talks?userId=id
 
-
 onde o id é o id do usuario logado
 
 > > > TALK BUSCA < < <
@@ -233,63 +225,47 @@ Para buscar talk relaciona adicionado use:
 
       GET /talks?userId=id&name=nameUser
 
-
 nameUser = a nome do usuário
 
-> > > TALK ADD< < <
-
-Para add de multimidia use:
-
-      POST /group
-
-    Com o seguinte exemplo de request
-
-    {
-    		"email": "olivier@email.com",
-    		"name" : "Oliver",
-    		"preferences": "games , series e hq's",
-    		"personaId": <id do usuario amigo>
-    		"userId": <id do usuario logado>
-    	}
-
-
-> > > TALK DELETE< < <
+> > > TALK DELETE < < <
 
 Para deletar users da list use:
 
       DELETE /talks/id
 
-
 onde o id é o id correspondente ao numero de identificação na lista.
 
-> > > > > > Criar uma TALK <<<<<
-
-// lojas favoritadas
+> > > Criar uma TALK < < <
 
 POST /talk
 
-Use o formato JSON: { "title": "titulo",
-"type": "Animes",
-"image": "url",
-"description": "um texto",
-"userId": 1 }
-
-PS: mudar o userId para usuário
+Use o formato JSON:
+{
+"userId": <id do usuario logado>,
+"destinyId": <id do usuario amigo>,
+"message": "Olá, que bom ter te encontrado aqui!"
+}
 
 Exige autenticação.
-Consultar todos TALK
 
-Siga os seguintes passos: guarde em uma const esse resultado
+> > > Consultar todos TALK < < <
+
+1. Siga os seguintes passos: guarde em uma const esse resultado
+
 GET /talk?userId=1&destinyId=3
+ex: array = result.data
 
-concatene o resultado abaixo na const anterior /
+2. Concatene o resultado abaixo na const anterior /
+
 GET /talk?destinyId=1&userId=3
 
-crie uma function que ordene o resultado pelo id
+ex: array = [...array, result.data]
+
+3. crie uma function que ordene o resultado pelo id
 
 Dispensa uso de JSON. Exige autenticação.
 
-Deletar um TALK
+> > > Deletar um TALK < < <
 
 DELETE /myMultimedias/1
 
@@ -328,7 +304,6 @@ a onde o id é o numero do usuario proprietário que fará as modificações dos
 Para deletar post da list use:
 
       DELETE /post/id
-
 
 onde o id é o id correspondente ao numero de identificação na lista.
 
@@ -369,7 +344,6 @@ Use o formato JSON:
 
      DELETE /stores/1
 
-
 O nr 1 indica o id da mensage a ser deletada.
 
 Dispensa uso de JSON
@@ -408,7 +382,6 @@ Dispensa uso de JSON
 > > > > > > > Deletar um MYSTORE <<<<<<<<
 
      DELETE /myStores/1
-
 
 O nr 1 indica o id da minha store a ser deletada.
 
