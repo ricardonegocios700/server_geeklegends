@@ -11,7 +11,7 @@ app.db = router.db;
 const rules = auth.rewriter({
   users: 640,
   groups: 640,
-  multimedias: 640,
+  multimedias: 660,
   stores: 660,
   posts: 660,
   messages: 660,
