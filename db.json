@@ -443,6 +443,7 @@
       "id": 15
     }
   ],
+  "myPersonas": [],
   "posts": [],
   "messages": [
     {
@@ -753,8 +754,8 @@
     },
     {
       "id": "51",
-      "quote": "💕 I'm the CSS to your HTML.",
-      "translate": "💕 Sou o CSS do seu HTML.",
+      "quote": "I'm the CSS to your HTML.",
+      "translate": "Sou o CSS do seu HTML.",
       "author": "Unknown Author"
     },
     {
@@ -1683,36 +1684,7 @@
       "id": 4
     }
   ],
-  "myStores": [
-    {
-      "name": "Toy Show",
-      "url": "https://www.toyshow.com.br/",
-      "image": "https://service.smarthint.co/ClientImages/abb35ee0-fd06-4eec-af67-024063ec78ca.png",
-      "segment": "shopping",
-      "useId": 4
-    },
-    {
-      "name": "Nerd Universe",
-      "url": "https://www.nerduniverse.com.br/",
-      "image": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/078/806/themes/common/logo-1786935022-1581098938-c66991d35d9583404e19459e393e5df81581098939-320-0.png?0",
-      "segment": "shopping",
-      "useId": 1
-    },
-    {
-      "name": "Limited edition",
-      "url": "https://www.limitededition.com.br/",
-      "image": "https://www.limitededition.com.br/arquivos/logo.png?v=637685282890870000",
-      "segment": "shopping",
-      "useId": 2
-    },
-    {
-      "name": "Geek 10",
-      "url": "https://www.geek10.com.br/",
-      "image": "https://images.tcdn.com.br/files/723087/themes/67/img/settings/logo-2.png",
-      "segment": "shopping",
-      "useId": 3
-    }
-  ],
+  "myStores": [],
   "myMultimedias": [
     {
       "title": "ONE PEACE",

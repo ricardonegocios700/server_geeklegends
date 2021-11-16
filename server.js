@@ -17,6 +17,7 @@ const rules = auth.rewriter({
   messages: 660,
   myStores: 660,
   myMultimedias: 660,
+  myPersonas: 660,
   talk: 660,
 });
 
