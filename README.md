@@ -99,6 +99,38 @@ Para atualizar dados do user use:
 
 a onde o id é o numero do usuario proprietário que fará as modificações dos dados
 
+> > > MY PERSONAS < < <
+
+Para listar todos os arquivos de multimidia da plataforma use:
+
+       GET /myPersonas?userId=id
+
+onde o id é o id do usuario logado
+
+> > > MY PERSONAS ADD< < <
+
+Para add arquivos em myPersonas use:
+
+       POST /myPersonas
+
+    Com o seguinte exemplo de request
+
+      {
+         "name": "persona.name",
+         "preferences": "persona.preferences",
+       "userId": id
+      }
+
+onde o id é o id do usuario logado, persona.name e o persona.preferences se refere as caracteristicas do objeto user a ser adcionado que pode ser listado pelo get users.
+
+> > > MY PERSONAS DELETE< < <
+
+Para deletar os arquivos de myPersonas use:
+
+       DELETE /myPersonas/id
+
+onde o id é o id correspondente ao numero de identificação na lista.
+
 > > > MEDIA < < <
 
 Para listar todos os arquivos de multimidia da plataforma use:
